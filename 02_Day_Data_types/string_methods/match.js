@@ -1,7 +1,7 @@
 // match(): Takes a substring or regular expression pattern as an argument and returns an array if there is a match, otherwise it returns null.
 
 // Let us see what a regular expression pattern looks like.
-// It starts with a / sign and ends with a / sign.
+// It starts and ends with a slash (/).
 let string = 'love'
 let patternOne = /love/   // without any flag
 let patternTwo = /love/gi // g means "search the whole text", and i makes it case-insensitive.
@@ -24,7 +24,7 @@ let pattern = /love/gi
 console.log(string.match(pattern)) // ["love", "love", "love"]
 
 // Let us extract numbers from the text using a regular expression.
-// This is not the regular expression section, so don't panic.
+// This is not the regular expression section, so no need to worry.
 
 let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I\'m super excited to start this challenge.'
 let regEx = /\d/g
