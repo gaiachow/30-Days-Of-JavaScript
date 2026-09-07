@@ -21,7 +21,7 @@
   - [Introduction](#introduction)
   - [Requirements](#requirements)
   - [Setup](#setup)
-    - [Install Node.js](#install-nodejs)
+    - [Installing Node.js](#installing-nodejs)
     - [Browser](#browser)
       - [Installing Google Chrome](#installing-google-chrome)
       - [Opening Google Chrome Console](#opening-google-chrome-console)
@@ -82,7 +82,7 @@ You only need:
 I believe you have the motivation, a strong desire to become a developer, a computer, and an Internet connection.
 If you have those, then you have everything to get started.
 
-### Install Node.js
+### Installing Node.js
 
 You may not need Node.js right now, but you may need it later.
 Install [Node.js](https://nodejs.org/en/).
