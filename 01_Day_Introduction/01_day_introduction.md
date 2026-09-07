@@ -15,7 +15,7 @@
 
 [Day 2 >>](../02_Day_Data_types/02_day_data_types.md)
 
-![Thirty Days Of JavaScript](../images/day_1_1.png)
+![30 Days of JavaScript: Day 01](../images/day_1_1.png)
 
 - [📔 Day 1](#-day-1)
   - [Introduction](#introduction)

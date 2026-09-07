@@ -15,7 +15,7 @@
 
 [<< Day 1](../01_Day_Introduction/01_day_introduction.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
 
-![30 Days of JavaScript](../images/banners/day_1_2.png)
+![30 Days of JavaScript: Day 02](../images/banners/day_1_2.png)
 
 - [📔 Day 2](#-day-2)
 	- [Data Types](#data-types)
