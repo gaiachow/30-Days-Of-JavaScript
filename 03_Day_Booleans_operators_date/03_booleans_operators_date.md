@@ -601,9 +601,11 @@ Now do some exercises for your brain and muscles.
 3. Get the length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width)).
 4. Get the radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle (c = 2 x pi x r) where pi = 3.14.
 5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2.
-6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between points (2,2) and (6,10).
+6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>).
+   Find the slope between points (2,2) and (6,10).
 7. Compare the slopes from the above two questions.
-8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try different x values and figure out for which x value y is 0.
+8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9).
+   Try different x values and figure out for which x value y is 0.
 9. Write a script that prompts the user to enter hours and rate per hour. Calculate the person's pay.
 
     ```sh
@@ -635,7 +637,8 @@ Now do some exercises for your brain and muscles.
    I am 225 years older than you.
    ```
 
-13. Using prompt, get the user's birth year. If they are 18 or above, allow them to drive; if not, tell them to wait a certain number of years.
+13. Using prompt, get the user's birth year.
+    If they are 18 or above, allow them to drive; if not, tell them to wait a certain number of years.
 
     ```sh
     Enter birth year: 1995
