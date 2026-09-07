@@ -290,7 +290,7 @@ We use post-increment most of the time, so remember it well.
 
 ### Decrement Operator
 
-In JavaScript we use the decrement operator to decrease a value stored in a variable.
+In JavaScript, we use the decrement operator to decrease a value stored in a variable.
 The decrement could be pre-decrement or post-decrement.
 Let us see each of them:
 
@@ -535,7 +535,7 @@ Now do some exercises for your brain and muscles.
 ### Exercises: Level 1
 
 1. Declare variables firstName, lastName, country, city, age, isMarried, and year, assign values to them, and use the typeof operator to check their data types.
-2. Check if the type of '10' is equal to 10.
+2. Check if the type of '10' is the same as the type of 10.
 3. Check if parseInt('9.8') is equal to 10.
 4. A boolean value is either true or false.
    1. Write three JavaScript statements that evaluate to truthy values.
@@ -611,7 +611,7 @@ Now do some exercises for your brain and muscles.
     ```sh
     Enter hours: 40
     Enter rate per hour: 28
-    Your weekly earning is 1120
+    Your weekly earnings are 1120
     ```
 
 10. If the length of your name is greater than 7, say "your name is long", else say "your name is short".
@@ -666,6 +666,6 @@ Now do some exercises for your brain and muscles.
 
 1. Create a human readable time format using the Date time object.
    The hour and minute should always be two digits (e.g., 7 should be 07 and 5 should be 05).
-   1. YYYY-MM-DD HH:mm eg. 2020-01-02 07:05
+   1. YYYY-MM-DD HH:mm e.g. 2020-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
