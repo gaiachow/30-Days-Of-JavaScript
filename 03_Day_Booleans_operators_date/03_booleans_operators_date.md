@@ -223,10 +223,10 @@ console.log('tomato'.length == 'potato'.length) // true
 console.log('python'.length > 'dragon'.length)  // false
 ```
 
-Try to understand the above comparisons using logic.
+Try to understand the logic behind the above comparisons.
 Memorizing them without understanding the logic might be difficult.
 JavaScript can sometimes behave unexpectedly in comparison operations.
-JavaScript code runs and gives you a result, but if you are not careful, it may not be the desired result.
+JavaScript code runs and gives you a result. However, if you are not careful, it may not be the desired result.
 
 As a rule of thumb, it is safer to use === because == performs type coercion, which can lead to unexpected results 
 (e.g., 0 == false is true, but 0 === false is false).
@@ -236,7 +236,7 @@ The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an 
 ### Logical Operators
 
 The following symbols are the common logical operators:
-&& (ampersand), || (pipe) and ! (negation).
+The common logical operators are: && (logical AND), || (logical OR), and ! (logical NOT).
 The && operator returns true only if both operands are true.
 The || operator returns true if either operand is true.
 The ! operator negates true to false and false to true.
@@ -312,7 +312,7 @@ console.log(count)   // -1
 
 ### Ternary Operators
 
-The ternary operator allows us to write a condition.
+The ternary operator allows us to write a condition and execute different code blocks based on its truthiness.
 Another way to write conditionals is to use ternary operators.
 Look at the following examples:
 
@@ -389,7 +389,7 @@ console.log(number)
 ### Window confirm() method
 
 The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
-A confirm box is often used to ask a user for permission to execute something.
+A confirm box is often used to ask the user for permission to execute something.
 The window.confirm() method takes a string as an argument.
 Clicking OK yields a true value, whereas clicking Cancel yields a false value.
 
@@ -533,12 +533,12 @@ Now do some exercises for your brain and muscles.
 
 ### Exercises: Level 1
 
-1. Declare variables firstName, lastName, country, city, age, isMarried, and year, assign values to them, and use the typeof operator to check different data types.
+1. Declare variables firstName, lastName, country, city, age, isMarried, and year, assign values to them, and use the typeof operator to check their data types.
 2. Check if the type of '10' is equal to 10.
 3. Check if parseInt('9.8') is equal to 10.
 4. A boolean value is either true or false.
-   1. Write three JavaScript statements that provide truthy values.
-   2. Write three JavaScript statements which provide falsy values.
+   1. Write three JavaScript statements that evaluate to truthy values.
+   2. Write three JavaScript statements which evaluate to falsy values.
 
 5. Figure out the result of the following comparison expressions first without using console.log().
    After you decide the result, confirm it using console.log().
@@ -570,8 +570,8 @@ Now do some exercises for your brain and muscles.
    11. Check if both 'dragon' and 'python' contain the substring 'on'.
 
 7. Use the Date object to do the following activities:
-   1. What is the year today?
-   2. What is the month today as a number?
+   1. What is the current year?
+   2. What is the current month (as a number)?
    3. What is the date today?
    4. What is the day today as a number?
    5. What is the hours now?
@@ -597,13 +597,13 @@ Now do some exercises for your brain and muscles.
    The perimeter of the triangle is 12
    ```
 
-3. Get length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width)).
-4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle (c = 2 x pi x r) where pi = 3.14.
+3. Get the length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width)).
+4. Get the radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle (c = 2 x pi x r) where pi = 3.14.
 5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2.
 6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between points (2,2) and (6,10).
 7. Compare the slopes from the above two questions.
 8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try different x values and figure out for which x value y is 0.
-9. Write a script that prompts a user to enter hours and rate per hour. Calculate the person's pay.
+9. Write a script that prompts the user to enter hours and rate per hour. Calculate the person's pay.
 
     ```sh
     Enter hours: 40
@@ -612,7 +612,7 @@ Now do some exercises for your brain and muscles.
     ```
 
 10. If the length of your name is greater than 7, say "your name is long", else say "your name is short".
-11. Compare the length of your first name and your family name, and you should get this output.
+11. Compare the length of your first name and your family name. You should get an output like this:
 
     ```js
     let firstName = 'Asabeneh'
@@ -634,7 +634,7 @@ Now do some exercises for your brain and muscles.
    I am 225 years older than you.
    ```
 
-13. Using prompt, get the year the user was born. If the user is 18 or above, allow the user to drive; if not, tell the user to wait a certain number of years.
+13. Using prompt, get the user's birth year. If they are 18 or above, allow them to drive; if not, tell them to wait a certain number of years.
 
     ```sh
     Enter birth year: 1995
@@ -644,7 +644,7 @@ Now do some exercises for your brain and muscles.
     You are 15. You will be allowed to drive after 3 years.
     ```
 
-14. Write a script that prompts the user to enter a number of years.
+14. Write a script that prompts the user to enter the number of years.
     Calculate the number of seconds a person can live.
     Assume someone lives for a hundred years.
 
