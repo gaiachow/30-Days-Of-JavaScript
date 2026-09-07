@@ -1,4 +1,4 @@
-// substr(): Takes two arguments (the starting index and the number of characters) and returns the sliced portion.
+// substr(): Takes two arguments (the starting index and the number of characters) and returns the sliced substring.
 
 let string = 'JavaScript'
 console.log(string.substr(4, 6)) // Script
