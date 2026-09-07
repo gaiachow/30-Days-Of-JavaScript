@@ -114,7 +114,7 @@ console.log(empty) // null, means no value.
 ### Assignment operators
 
 An equal sign in JavaScript is an assignment operator.
-It uses to assign a variable.
+It is used to assign a variable.
 
 ```js
 let firstName = 'Asabeneh'
@@ -225,7 +225,7 @@ console.log('python'.length > 'dragon'.length)  // false
 Try to understand the above comparisons with some logic.
 Remembering without any logic might be difficult.
 JavaScript is somehow a weird kind of programming language.
-JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript code runs and gives you a result, but unless you are good at it, it may not be the desired result.
 
 As a rule of thumb, if a value is not true with == it will not be equal with ===.
 Using === is safer than using ==.
@@ -356,7 +356,7 @@ I would like to recommend you to read about operator precedence from this [link]
 
 ### Window alert() method
 
-As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button.
+As you have seen at the very beginning, the alert() method displays an alert box with a specified message and an OK button.
 It is a built-in method and it takes one argument.
 
 ```js
@@ -367,7 +367,7 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use too much alert because it is disruptive and annoying, use it just to test.
+Do not use alert too much because it is disruptive and annoying, use it just to test.
 
 ### Window prompt() method
 
@@ -402,16 +402,16 @@ These are not all the window methods we will have a separate section to go deep 
 
 Time is an important thing.
 We like to know the time a certain activity or event.
-In JavaScript current time and date is created using JavaScript Date Object.
-The object we create using Date object provides many methods to work with date and time.
-The methods we use to get date and time information from a date object values are started with a word _get_ because it provides the information.
+In JavaScript, the current time and date are created using the JavaScript Date object.
+The object we create using the Date object provides many methods to work with dates and times.
+The methods we use to get date and time information from a date object start with the word _get_, because they provide that information.
 _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
 ![Date time Object](../images/date_time_object.png)
 
 ### Creating a time object
 
-Once we create time object.
+Once we create a time object.
 The time object will provide information about time.
 Let us create a time object
 
@@ -489,7 +489,7 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 ### Getting time
 
-This method give time in milliseconds starting from January 1, 1970.
+This method gives time in milliseconds starting from January 1, 1970.
 It is also known as Unix time. We can get the unix time in two ways:
 
 1. Using _getTime()_
@@ -531,14 +531,14 @@ Now do some exercises for your brain and for your muscle.
 
 ### Exercises: Level 1
 
-1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
-2. Check if type of '10' is equal to 10
+1. Declare firstName, lastName, country, city, age, isMarried, year variables and assign values to them and use the typeof operator to check different data types.
+2. Check if the type of '10' is equal to 10
 3. Check if parseInt('9.8') is equal to 10
 4. Boolean value is either true or false.
-   1. Write three JavaScript statement which provide truthy value.
-   2. Write three JavaScript statement which provide falsy value.
+   1. Write three JavaScript statements which provide truthy values.
+   2. Write three JavaScript statements which provide falsy values.
 
-5. Figure out the result of the following comparison expression first without using console.log().
+5. Figure out the result of the following comparison expressions first without using console.log().
    After you decide the result, confirm it using console.log().
    1. 4 > 3
    2. 4 >= 3
@@ -578,7 +578,7 @@ Now do some exercises for your brain and for your muscle.
 
 ### Exercises: Level 2
 
-1. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+1. Write a script that prompts the user to enter base and height of the triangle and calculates the area of a triangle (area = 0.5 x b x h).
 
    ```sh
    Enter base: 20
@@ -586,7 +586,7 @@ Now do some exercises for your brain and for your muscle.
    The area of the triangle is 100
    ```
 
-2. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+2. Write a script that prompts the user to enter side a, side b, and side c of the triangle and calculate the perimeter of triangle (perimeter = a + b + c)
 
    ```sh
    Enter side a: 5
@@ -599,9 +599,9 @@ Now do some exercises for your brain and for your muscle.
 4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 5. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
-7. Compare the slope of above two questions.
+7. Compare the slope of the above two questions.
 8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-9. Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+9. Write a script that prompts a user to enter hours and rate per hour. Calculate the pay of the person?
 
     ```sh
     Enter hours: 40
@@ -609,7 +609,7 @@ Now do some exercises for your brain and for your muscle.
     Your weekly earning is 1120
     ```
 
-10. If the length of your name is greater than 7 say, your name is long else say your name is short.
+10. If the length of your name is greater than 7, say "your name is long", else say "your name is short".
 11. Compare your first name length and your family name length and you should get this output.
 
     ```js
@@ -621,7 +621,7 @@ Now do some exercises for your brain and for your muscle.
     Your first name, Asabeneh is longer than your family name, Yetayeh
     ```
 
-12. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+12. Declare two variables _myAge_ and _yourAge_ and assign them initial values.
 
    ```js
    let myAge = 250
@@ -632,7 +632,7 @@ Now do some exercises for your brain and for your muscle.
    I am 225 years older than you.
    ```
 
-13. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+13. Using prompt, get the year the user was born. If the user is 18 or above, allow the user to drive; if not, tell the user to wait a certain number of years.
 
     ```sh
     Enter birth year: 1995
@@ -642,9 +642,9 @@ Now do some exercises for your brain and for your muscle.
     You are 15. You will be allowed to drive after 3 years.
     ```
 
-14. Write a script that prompt the user to enter number of years.
+14. Write a script that prompts the user to enter a number of years.
     Calculate the number of seconds a person can live.
-    Assume some one lives just hundred years.
+    Assume someone lives just a hundred years.
 
    ```sh
    Enter number of years you live: 100
@@ -659,7 +659,7 @@ Now do some exercises for your brain and for your muscle.
 ### Exercises: Level 3
 
 1. Create a human readable time format using the Date time object.
-   The hour and the minute should be all the time two digits (7 hours should be 07 and 5 minutes should be 05).
+   The hour and minute should always be two digits (e.g., 7 should be 07 and 5 should be 05).
    1. YYY-MM-DD HH:mm eg. 2020-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
