@@ -226,7 +226,8 @@ console.log('python'.length > 'dragon'.length)  // false
 Try to understand the logic behind the above comparisons.
 Memorizing them without understanding the logic might be difficult.
 JavaScript can sometimes behave unexpectedly in comparison operations.
-JavaScript code runs and gives you a result. However, if you are not careful, it may not be the desired result.
+JavaScript code runs and gives you a result.
+However, if you are not careful, it may not be the desired result.
 
 As a rule of thumb, it is safer to use === because == performs type coercion, which can lead to unexpected results 
 (e.g., 0 == false is true, but 0 === false is false).
@@ -253,7 +254,7 @@ const checkOr1 = 4 > 3 || 10 > 5 // true || true -> true
 const checkOr2 = 4 > 3 || 10 < 5 // true || false -> true
 const checkOr3 = 4 < 3 || 10 < 5 // false || false -> false
 
-//! Negation examples
+// ! Negation examples
 
 let checkNeg1 = 4 > 3    // true
 let checkNeg2 = !(4 > 3) // false
@@ -290,7 +291,8 @@ We use post-increment most of the time, so remember it well.
 ### Decrement Operator
 
 In JavaScript we use the decrement operator to decrease a value stored in a variable.
-The decrement could be pre-decrement or post-decrement. Let us see each of them:
+The decrement could be pre-decrement or post-decrement.
+Let us see each of them:
 
 1. Pre-decrement
 
@@ -489,7 +491,8 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 ### Getting time
 
 This method returns the time in milliseconds since January 1, 1970.
-It is also known as Unix time. We can get the Unix time in two ways:
+It is also known as Unix time.
+We can get the Unix time in two ways:
 
 1. Using _getTime()_
 
