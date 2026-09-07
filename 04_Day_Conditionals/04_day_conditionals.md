@@ -43,7 +43,7 @@ If the processing logic requires it, the sequential flow of execution can be alt
 In this section, we will cover _if_, _else_, _else if_ statements.
 The comparison and logical operators we learned in the previous sections will be useful here.
 
-Conditions can be implemented using the following ways:
+Conditions can be implemented using the following methods:
 
 - if
 - if else
@@ -84,7 +84,7 @@ if (isRaining) {
 }
 ```
 
- The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see any output.
+ The same goes for the second condition: if isRaining is false, the if block will not be executed, and we do not see any output.
  In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
 
 ### If Else
@@ -283,7 +283,7 @@ switch (true) {
 
 ### Ternary Operators
 
-Another way to write conditionals is using ternary operators.
+Another way to write conditionals is to use ternary operators.
 We have covered this in other sections, but we should also mention it here.
 
 ```js
