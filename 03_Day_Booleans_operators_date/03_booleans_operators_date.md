@@ -75,8 +75,8 @@ As mentioned, boolean values are either true or false.
 
 ### Truthy values
 
-- All numbers (positive and negative) are truthy except zero
-- All strings are truthy except an empty string (`''`)
+- All numbers (positive and negative) are truthy except for zero
+- All strings are truthy except for an empty string (`''`)
 - The boolean true
 
 ### Falsy values
@@ -90,7 +90,7 @@ As mentioned, boolean values are either true or false.
 - '', "", ``, empty string
 
 It is good to remember these truthy and falsy values.
-In later section, we will use them with conditions to make decisions.
+In a later section, we will use them with conditions to make decisions.
 
 ## Undefined
 
@@ -231,7 +231,7 @@ JavaScript code runs and gives you a result, but if you are not careful, it may 
 As a rule of thumb, it is safer to use === because == performs type coercion, which can lead to unexpected results 
 (e.g., 0 == false is true, but 0 === false is false).
 Using === is safer than using ==.
-The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparisons between data types.
 
 ### Logical Operators
 
@@ -267,7 +267,7 @@ let isMarried = !false      // true
 ### Increment Operator
 
 In JavaScript we use the increment operator to increase a value stored in a variable.
-The increment could be pre or post increment.
+The increment could be pre-increment or post-increment.
 Let us see each of them:
 
 1. Pre-increment
@@ -292,7 +292,7 @@ You will find yourself using the post-increment operator most often, so remember
 ### Decrement Operator
 
 In JavaScript we use the decrement operator to decrease a value stored in a variable.
-The decrement could be pre or post decrement. Let us see each of them:
+The decrement could be pre-decrement or post-decrement. Let us see each of them:
 
 1. Pre-decrement
 
@@ -369,7 +369,7 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use alert too much because it is disruptive and intrusive; use it only for testing.
+Do not use alert too often because it is disruptive and intrusive; use it only for testing.
 
 ### Window prompt() method
 
@@ -533,11 +533,11 @@ Now do some exercises for your brain and muscles.
 
 ### Exercises: Level 1
 
-1. Declare firstName, lastName, country, city, age, isMarried, year variables and assign values to them and use the typeof operator to check different data types.
+1. Declare variables firstName, lastName, country, city, age, isMarried, and year, assign values to them, and use the typeof operator to check different data types.
 2. Check if the type of '10' is equal to 10.
 3. Check if parseInt('9.8') is equal to 10.
 4. A boolean value is either true or false.
-   1. Write three JavaScript statements which provide truthy values.
+   1. Write three JavaScript statements that provide truthy values.
    2. Write three JavaScript statements which provide falsy values.
 
 5. Figure out the result of the following comparison expressions first without using console.log().
@@ -588,7 +588,7 @@ Now do some exercises for your brain and muscles.
    The area of the triangle is 100
    ```
 
-2. Write a script that prompts the user to enter side a, side b, and side c of the triangle and calculate the perimeter of triangle (perimeter = a + b + c).
+2. Write a script that prompts the user to enter side a, side b, and side c of the triangle and calculates the perimeter of the triangle (perimeter = a + b + c).
 
    ```sh
    Enter side a: 5
@@ -598,11 +598,11 @@ Now do some exercises for your brain and muscles.
    ```
 
 3. Get length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width)).
-4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle (c = 2 x pi x r) where pi = 3.14.
 5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2.
 6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between points (2,2) and (6,10).
 7. Compare the slopes from the above two questions.
-8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try different x values and figure out for which x value y is 0.
 9. Write a script that prompts a user to enter hours and rate per hour. Calculate the person's pay.
 
     ```sh
