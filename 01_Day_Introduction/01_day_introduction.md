@@ -109,7 +109,7 @@ However, I strongly recommend Google Chrome.
 #### Installing Google Chrome
 
 Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet.
-We can write some JavaScript code on the browser console, but we do not use the browser console to develop applications.
+We can write some JavaScript code in the browser console, but we do not use the browser console to develop applications.
 
 ![Google Chrome](../images/google_chrome.png)
 
@@ -267,7 +267,7 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ### Code Editor
 
-We can write our code on the browser console, but it is not suitable for bigger projects.
+We can write our code in the browser console, but it is not suitable for bigger projects.
 In a real working environment, developers use different code editors to write their code.
 In this 30-day JavaScript challenge, we will be using Visual Studio Code.
 
