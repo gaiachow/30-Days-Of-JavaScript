@@ -55,7 +55,7 @@
 
 ## Booleans
 
-A boolean data type represents one of the two values: _true_ or _false_.
+A boolean data type represents one of two values: _true_ or _false_.
 A Boolean value is either true or false.
 The importance of these data types will become clear when you start using comparison operators.
 Any comparison returns a boolean value which is either true or false.
@@ -114,7 +114,7 @@ console.log(empty) // null, means no value.
 ### Assignment operators
 
 An equal sign in JavaScript is an assignment operator.
-It is used to assign a variable.
+It is used to assign a value to a variable.
 
 ```js
 let firstName = 'Asabeneh'
@@ -219,15 +219,15 @@ console.log('mango'.length < 'avocado'.length)  // true
 console.log('milk'.length == 'meat'.length)     // true
 console.log('milk'.length != 'meat'.length)     // false
 console.log('tomato'.length == 'potato'.length) // true
-console.log('python'.length > 'dragon'.length)  // false
+console.log('python'.length > 'dragon'.length) // false
 ```
 
 Try to understand the above comparisons using logic.
 Remembering without any logic might be difficult.
 JavaScript can sometimes behave unexpectedly in comparison operations.
-JavaScript code runs and gives you a result, but unless you are good at it, it may not be the desired result.
+JavaScript code runs and gives you a result, but if you are not careful, it may not be the desired result.
 
-As a rule of thumb, if a value is not equal when using ==, it will not be equal when using ===.
+As a rule of thumb, it is safer to use === because == performs type coercion, which can lead to unexpected results (e.g., 0 == false is true, but 0 === false is false).
 Using === is safer than using ==.
 The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -367,7 +367,7 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use alert too much because it is disruptive and annoying; use it only for testing.
+Do not use alert too much because it is disruptive and intrusive; use it only for testing.
 
 ### Window prompt() method
 
@@ -404,7 +404,7 @@ Time is an important aspect of programming. We often need to know the exact time
 In JavaScript, the current time and date are created using the JavaScript Date object.
 The object we create using the Date object provides many methods to work with dates and times.
 The methods we use to get date and time information from a date object start with the word _get_, because they provide that information.
-_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
+_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes(), getSeconds(), getMilliseconds(), getTime()_
 
 ![Date time Object](../images/date_time_object.png)
 
@@ -418,7 +418,7 @@ const now = new Date()
 console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
-We have created a time object and we can access any date time information from the object using the get methods we have mentioned in the table.
+We have created a time object and we can access any date and time information from the object using the get methods we have mentioned in the table.
 
 ### Getting full year
 
@@ -549,7 +549,7 @@ Now do some exercises for your brain and muscles.
    9. 4 != '4'
    10. 4 == '4'
    11. 4 === '4'
-   12. Find the length of 'python' and 'jargon' and make a falsy comparison statement.
+   12. Find the length of 'python' and 'jargon' and make a comparison statement that evaluates to false.
 
 6. Figure out the result of the following expressions first without using console.log().
    After you decide the result, confirm it by using console.log().
@@ -595,7 +595,7 @@ Now do some exercises for your brain and muscles.
 
 3. Get length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width))
 4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-5. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2
 6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between points (2,2) and (6,10).
 7. Compare the slopes from the above two questions.
 8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
@@ -649,7 +649,7 @@ Now do some exercises for your brain and muscles.
    You lived 3153600000 seconds.
    ```
 
-15. Create a human readable time format using the Date time object:
+15. Create a human-readable time format using the Date time object:
    1. YYYY-MM-DD HH:mm
    2. DD-MM-YYYY HH:mm
    3. DD/MM/YYYY HH:mm
