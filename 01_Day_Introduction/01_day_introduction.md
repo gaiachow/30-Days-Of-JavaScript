@@ -134,8 +134,8 @@ Ctrl+Shift+J
 ![Opening console](../images/opening_chrome_console_shortcut.png)
 
 After you open the Google Chrome console, try exploring the marked buttons.
-We will spend most of our time on the Console.
-The Console is the place where your JavaScript code goes.
+We will spend most of our time in the console.
+The Console is the place where your JavaScript code is executed.
 The V8 engine in Google Chrome converts your JavaScript code to machine code.
 Let us write some JavaScript code on the Google Chrome console:
 
@@ -181,7 +181,7 @@ console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 From the code snippet above, _`console.log()`_ can take multiple arguments.
 
 Congratulations!
-You wrote your first JavaScript code using _`console.log()`_.
+You have written your first JavaScript code using _`console.log()`_.
 
 ##### Comments
 
@@ -252,7 +252,7 @@ Now, let us practice writing more JavaScript code for numbers using _`console.lo
 In addition to printing text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without using the **_`console.log()`_** function.
-However, it is included in this introduction because most of this challenge will take place in a text editor, where using the function is required.
+However, it is included in this introduction because most of the challenge will take place in a text editor, where using the function is required.
 You can play around directly with code in the console.
 
 ![Arithmetic](../images/arithmetic.png)
