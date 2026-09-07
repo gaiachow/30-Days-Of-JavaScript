@@ -158,7 +158,7 @@ const areaOfCircle = PI * radius * radius
 console.log(areaOfCircle) // 31400 m^2
 
 
-const gravity = 9.81 // in m/s2
+const gravity = 9.81 // in m/s^2
 let mass = 72        // in Kilogram
 
 // Let us calculate the weight of an object
@@ -172,7 +172,7 @@ const bodyTemp = 37      // body temperature in °C
 /*
   The boiling point of water is 100 °C.
   Human body temperature is 37 °C.
-  The gravity of Earth is 9.81 m/s2.
+  The gravity of Earth is 9.81 m/s^2.
 */
 console.log(
   `The boiling point of water is ${boilingPoint} °C.\nHuman body temperature is ${bodyTemp} °C.\nThe gravity of Earth is ${gravity} m/s^2.`
