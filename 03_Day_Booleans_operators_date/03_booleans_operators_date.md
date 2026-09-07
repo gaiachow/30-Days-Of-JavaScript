@@ -55,10 +55,10 @@
 
 ## Booleans
 
-A boolean data type represents one of the two values:_true_ or _false_.
-Boolean value is either true or false.
-The use of these data types will be clear when you start the comparison operator.
-Any comparisons return a boolean value which is either true or false.
+A boolean data type represents one of the two values: _true_ or _false_.
+A Boolean value is either true or false.
+The use of these data types will be clear when you start using comparison operators.
+Any comparison returns a boolean value which is either true or false.
 
 **Example: Boolean Values**
 
@@ -71,7 +71,7 @@ let trueValue = 4 > 3  // true
 let falseValue = 4 < 3 // false
 ```
 
-We agreed that boolean values are either true or false.
+We agree that boolean values are either true or false.
 
 ### Truthy values
 
@@ -94,8 +94,8 @@ In later section, we will use them with conditions to make decisions.
 
 ## Undefined
 
-If we declare a variable and if we do not assign a value, the value will be undefined.
-In addition to this, if a function is not returning the value, it will be undefined.
+If we declare a variable and do not assign a value, the value will be undefined.
+In addition, if a function does not return a value, it will be undefined.
 
 ```js
 let firstName
@@ -182,7 +182,7 @@ console.log(
 
 ### Comparison Operators
 
-In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
+In programming, we compare values. We use comparison operators to compare two values. We check if a value is greater than, less than, or equal to another value.
 
 ![Comparison Operators](../images/comparison_operators.png)
 **Example: Comparison Operators**
@@ -222,12 +222,12 @@ console.log('tomato'.length == 'potato'.length) // true
 console.log('python'.length > 'dragon'.length)  // false
 ```
 
-Try to understand the above comparisons with some logic.
+Try to understand the above comparisons using logic.
 Remembering without any logic might be difficult.
-JavaScript is somehow a weird kind of programming language.
+JavaScript is somewhat a weird kind of programming language.
 JavaScript code runs and gives you a result, but unless you are good at it, it may not be the desired result.
 
-As a rule of thumb, if a value is not true with == it will not be equal with ===.
+As a rule of thumb, if a value is not equal when using ==, it will not be equal when using ===.
 Using === is safer than using ==.
 The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -235,8 +235,8 @@ The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an 
 
 The following symbols are the common logical operators:
 && (ampersand) , || (pipe) and ! (negation).
-The && operator gets true only if the two operands are true.
-The || operator gets true if either operand is true.
+The && operator returns true only if both operands are true.
+The || operator returns true if either operand is true.
 The ! operator negates true to false and false to true.
 
 ```js
@@ -284,8 +284,8 @@ console.log(count++) // 0
 console.log(count)   // 1
 ```
 
-We use most of the time post-increment.
-At least you should remember how to use post-increment operator.
+We use post-increment most of the time.
+At least, you should remember how to use the post-increment operator.
 
 ### Decrement Operator
 
@@ -310,7 +310,7 @@ console.log(count)   // -1
 
 ### Ternary Operators
 
-Ternary operator allows to write a condition.
+The ternary operator allows us to write a condition.
 Another way to write conditionals is using ternary operators.
 Look at the following examples:
 
@@ -367,11 +367,11 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use alert too much because it is disruptive and annoying, use it just to test.
+Do not use alert too much because it is disruptive and annoying; use it only for testing.
 
 ### Window prompt() method
 
-The window prompt() method displays a prompt box with an input on your browser to take input values and the input data can be stored in a variable.
+The window.prompt() method displays a prompt box with an input field in your browser to take input values, and the input data can be stored in a variable.
 The prompt() method takes two arguments.
 The second argument is optional.
 
@@ -387,21 +387,21 @@ console.log(number)
 ### Window confirm() method
 
 The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
-A confirm box is often used to ask permission from a user to execute something.
-Window confirm() takes a string as an argument.
-Clicking the OK yields true value, whereas clicking the Cancel button yields false value.
+A confirm box is often used to ask a user for permission to execute something.
+The window.confirm() method takes a string as an argument.
+Clicking OK yields a true value, whereas clicking Cancel yields a false value.
 
 ```js
 const agree = confirm('Are you sure you like to delete? ')
 console.log(agree) // The result will be true or false based on what you click on the dialog box.
 ```
 
-These are not all the window methods we will have a separate section to go deep into window methods.
+These are not all the window methods; we will have a separate section to dive deeper into them.
 
 ## Date Object
 
 Time is an important thing.
-We like to know the time a certain activity or event.
+We like to know the time of a certain activity or event.
 In JavaScript, the current time and date are created using the JavaScript Date object.
 The object we create using the Date object provides many methods to work with dates and times.
 The methods we use to get date and time information from a date object start with the word _get_, because they provide that information.
@@ -411,8 +411,7 @@ _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeco
 
 ### Creating a time object
 
-Once we create a time object.
-The time object will provide information about time.
+Once we create a time object, it will provide information about time.
 Let us create a time object
 
 ```js
@@ -420,7 +419,7 @@ const now = new Date()
 console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
-We have created a time object and we can access any date time information from the object using the get methods we have mentioned on the table.
+We have created a time object and we can access any date time information from the object using the get methods we have mentioned in the table.
 
 ### Getting full year
 
@@ -509,7 +508,7 @@ const timeInMilliseconds = new Date().getTime()
 console.log(allMilliseconds == timeInMilliseconds) // true
 ```
 
-Let us format these values to a human readable time format.
+Let us format these values into a human-readable time format.
 **Example:**
 
 ```js
@@ -524,8 +523,8 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
 🌕  You have boundless energy.
-You have just completed day 3 challenges and you are three steps a head in to your way to greatness.
-Now do some exercises for your brain and for your muscle.
+You have just completed day 3 challenges and you are three steps ahead on your way to greatness.
+Now do some exercises for your brain and muscles.
 
 ## 💻 Day 3: Exercises
 
@@ -551,7 +550,7 @@ Now do some exercises for your brain and for your muscle.
    9. 4 != '4'
    10. 4 == '4'
    11. 4 === '4'
-   12. Find the length of python and jargon and make a falsy comparison statement.
+   12. Find the length of 'python' and 'jargon' and make a falsy comparison statement.
 
 6. Figure out the result of the following expressions first without using console.log().
    After you decide the result, confirm it by using console.log().
@@ -565,7 +564,7 @@ Now do some exercises for your brain and for your muscle.
    8. !(4 > 3 && 10 < 12)
    9. !(4 > 3 && 10 > 12)
    10. !(4 === '4')
-   11. There is no 'on' in both dragon and python
+   11. There is no 'on' in both 'dragon' and 'python'
 
 7. Use the Date object to do the following activities:
    1. What is the year today?
@@ -578,7 +577,7 @@ Now do some exercises for your brain and for your muscle.
 
 ### Exercises: Level 2
 
-1. Write a script that prompts the user to enter base and height of the triangle and calculates the area of a triangle (area = 0.5 x b x h).
+1. Write a script that prompts the user to enter the base and height of the triangle and calculates the area of a triangle (area = 0.5 x b x h).
 
    ```sh
    Enter base: 20
@@ -595,13 +594,13 @@ Now do some exercises for your brain and for your muscle.
    The perimeter of the triangle is 12
    ```
 
-3. Get length and width using prompt and calculate the area of rectangle (area = length x width) and the perimeter of rectangle (perimeter = 2 x (length + width))
+3. Get length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width))
 4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 5. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
-7. Compare the slope of the above two questions.
+6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between points (2,2) and (6,10).
+7. Compare the slopes from the above two questions.
 8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-9. Write a script that prompts a user to enter hours and rate per hour. Calculate the pay of the person?
+9. Write a script that prompts a user to enter hours and rate per hour. Calculate the person's pay.
 
     ```sh
     Enter hours: 40
@@ -610,7 +609,7 @@ Now do some exercises for your brain and for your muscle.
     ```
 
 10. If the length of your name is greater than 7, say "your name is long", else say "your name is short".
-11. Compare your first name length and your family name length and you should get this output.
+11. Compare the length of your first name and your family name, and you should get this output.
 
     ```js
     let firstName = 'Asabeneh'
@@ -644,7 +643,7 @@ Now do some exercises for your brain and for your muscle.
 
 14. Write a script that prompts the user to enter a number of years.
     Calculate the number of seconds a person can live.
-    Assume someone lives just a hundred years.
+    Assume someone lives for a hundred years.
 
    ```sh
    Enter number of years you live: 100
