@@ -1,4 +1,4 @@
-// startsWith(): Takes a substring as an argument and checks if the string starts with that specified substring.
+// startsWith(): Takes a substring as an argument and checks if the string starts with the specified substring.
 // It returns a boolean (true or false).
 
 /*
