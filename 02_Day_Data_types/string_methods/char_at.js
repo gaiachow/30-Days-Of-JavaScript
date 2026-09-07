@@ -6,7 +6,7 @@
   string.charAt(index)
 */
 
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 console.log(string.charAt(0)) // 3
 
 let lastIndex = string.length - 1

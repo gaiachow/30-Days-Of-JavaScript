@@ -1,6 +1,6 @@
 // trim(): Removes leading and trailing whitespace from a string.
 
-let string = '   30 Days Of JavaScript   '
+let string = '   30 Days of JavaScript   '
 console.log(string)
 console.log(string.trim())
 

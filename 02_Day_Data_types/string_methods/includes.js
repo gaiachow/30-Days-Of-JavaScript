@@ -1,7 +1,7 @@
 // includes(): Takes a substring as an argument and checks if it exists in the string.
 // It returns a boolean (true or false).
 
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 console.log(string.includes('Days'))   // true
 console.log(string.includes('days'))   // false
 console.log(string.includes('Script')) // true

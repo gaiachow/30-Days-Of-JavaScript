@@ -7,7 +7,7 @@
   string.indexOf(substring)
 */
 
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 console.log(string.indexOf('D'))          // 3
 console.log(string.indexOf('Days'))       // 3
 console.log(string.indexOf('days'))       // -1

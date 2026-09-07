@@ -12,12 +12,12 @@ let patternTwo = /love/gi // g means "search the whole text", and i makes it cas
   string.match(substring)
 */
 
-string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+string = 'I love JavaScript. If you do not love JavaScript, what else can you love?'
 console.log(string.match('love'))
 /*
   Output
 
-  ["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
+  ["love", index: 2, input: 'I love JavaScript. If you do not love JavaScript, what else can you love?', groups: undefined]
 */
 
 let pattern = /love/gi

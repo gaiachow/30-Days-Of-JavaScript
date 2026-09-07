@@ -6,7 +6,7 @@
   string.charCodeAt(index)
 */
 
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 console.log(string.charCodeAt(3)) // D ASCII code is 68
 
 let lastIndex = string.length - 1
