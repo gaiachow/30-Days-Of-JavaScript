@@ -33,13 +33,13 @@
 
 ## Conditionals
 
-Conditional statements are used for  make decisions based on different conditions.
-By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
+Conditional statements are used to make decisions based on different conditions.
+By default, statements in JavaScript execute sequentially from top to bottom. If the processing logic requires it, the sequential flow of execution can be altered in two ways:
 
 - Conditional execution: a block of one or more statements will be executed if a certain expression is true
-- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here.
+- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_, _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful here.
 
-Conditions can be implementing using the following ways:
+Conditions can be implemented using the following ways:
 
 - if
 - if else
@@ -49,7 +49,7 @@ Conditions can be implementing using the following ways:
 
 ### If
 
-In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+In JavaScript and other programming languages, the keyword _if_ is used to check if a condition is true and to execute the block of code. To create an if condition, we need the _if_ keyword, a condition inside parentheses, and a block of code inside curly braces({}).
 
 ```js
 // syntax
@@ -68,7 +68,7 @@ if (num > 0) {
 //  3 is a positive number
 ```
 
-As you can see in the  condition example above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't  see any results.
+As you can see in the condition example above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't see any results.
 
 ```js
 let isRaining = true
@@ -81,7 +81,7 @@ if (isRaining) {
 
 ### If Else
 
-If condition is true the first block will be executed, if not the else condition will be executed.
+If the condition is true, the first block will be executed; if not, the else block will be executed.
 
 ```js
 // syntax
@@ -132,7 +132,7 @@ The last condition is false, therefore the else block was executed. What if we h
 
 ### If  Else if Else
 
-On our daily life, we make decisions on daily basis. We make decisions not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
+In our daily life, we make decisions on a daily basis. We make decisions based on multiple conditions, not just by checking one or two. Similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
 
 ```js
 // syntax
@@ -177,8 +177,8 @@ if (weather === 'rainy') {
 
 ### Switch
 
-Switch  is an alternative for **if else if else else**.
-The switch statement starts with a *switch* keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution  does not go down after the condition is satisfied.  The default block runs if all the cases don't satisfy the condition.
+Switch is an alternative to **if...else if...else**.
+The switch statement starts with the *switch* keyword followed by parentheses and a code block. Inside the code block we will have different cases. The case block runs if the value in the switch statement parentheses matches the case value. The break statement is used to terminate execution so the code does not continue to the next case after the condition is satisfied. The default block runs if all the cases don't satisfy the condition.
 
 ```js
 switch(caseValue){
@@ -213,7 +213,7 @@ switch (weather) {
 }
 
 // Switch More Examples
-let dayUserInput = prompt('What day is today ?')
+let dayUserInput = prompt('What day is today?')
 let day = dayUserInput.toLowerCase()
 
 switch (day) {
@@ -274,13 +274,13 @@ isRaining
   : console.log('No need for a rain coat.')
 ```
 
-🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenges and you are four steps ahead to your way to greatness. Now do some exercises for your brain and  muscle.  
+🌕  You are extraordinary and you have remarkable potential. You have just completed day 4 challenges and you are four steps ahead on your way to greatness. Now do some exercises for your brain and muscles.  
 
 ## 💻 Exercises
 
 ### Exercises: Level 1
 
-1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to  wait for the number of years he needs to turn 18.
+1. Get user input using prompt("Enter your age:"). If the user is 18 or older, give feedback: 'You are old enough to drive' but if not 18, give feedback stating that they need to wait for the number of years they need to turn 18.
 
    ```sh
    Enter your age: 30
@@ -290,14 +290,14 @@ isRaining
    You are left with 3 years to drive.
    ```
 
-1. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+1. Compare the values of myAge and yourAge using if ... else. Based on the comparison, log the result to the console stating who is older (me or you). Use prompt("Enter your age:") to get the age as input.
 
    ```sh
    Enter your age: 30
    You are 5 years older than me.
    ```
 
-1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways
 
     - using if else
     - ternary operator.
@@ -311,19 +311,19 @@ isRaining
       4 is greater than 3
     ```
 
-1. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+1. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using JavaScript?
 
     ```sh
     Enter a number: 2
     2 is an even number
 
     Enter a number: 9
-    9 is is an odd number.
+    9 is an odd number.
     ```
 
 ### Exercises: Level 2
 
-1. Write a code which  can give grades to students according to theirs scores:
+1. Write code which can give grades to students according to their scores:
    - 80-100, A
    - 70-89, B
    - 60-69, C
@@ -335,7 +335,7 @@ isRaining
    - December, January or February, the season is Winter.
    - March, April or May, the season is Spring
    - June, July or August, the season is Summer
-1. Check if a day is weekend day or a working day. Your script will take day as an input.
+1. Check if a day is weekend day or a working day. Your script will take day as input.
 
 ```sh
     What is the day  today? Saturday
@@ -360,7 +360,7 @@ isRaining
     January has 31 days.
 
     Enter a month: JANUARY
-    January has 31 day
+    January has 31 days.
 
     Enter a month: February
     February has 28 days.
@@ -369,7 +369,7 @@ isRaining
     February has 28 days.
   ```
 
-1. Write a program which tells the number of days in a month, now consider leap year.
+1. Write a program which tells the number of days in a month, now consider a leap year.
 
 
 🎉 CONGRATULATIONS ! 🎉
