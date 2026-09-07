@@ -144,7 +144,7 @@ Let us write some JavaScript code in the Google Chrome console:
 #### Writing Code in Browser Console
 
 We can write any JavaScript code in the Google Chrome console or any browser console.
-However, for this challenge, we only focus in the Google Chrome console.
+However, for this challenge, we will focus on the Google Chrome console.
 Open the console using:
 
 ```sh
@@ -669,8 +669,8 @@ Now do some exercises for your brain and muscles.
 # 💻 Day 1: Exercises
 
 1. Write a single line comment which says, _comments can make code readable_.
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript!_.
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse and informative_.
+2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_.
+3. Write a multiline comment which says, _comments can make code readable, easy to reuse, and informative_.
 4. Create a variable.js file and declare variables and assign values of string, boolean, undefined and null data types.
 5. Create a datatypes.js file and use the JavaScript **_typeof_** operator to check different data types.
    Check the data type of each variable.
