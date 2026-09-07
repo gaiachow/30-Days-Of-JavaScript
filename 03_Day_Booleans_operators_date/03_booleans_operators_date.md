@@ -153,7 +153,7 @@ console.log(sum, diff, mult, div, remainder, powerOf) // 7, 1, 12, 1.33, 1, 64
 const PI = 3.14
 let radius = 100 // length in meter
 
-//Let us calculate area of a circle
+// Let us calculate the area of a circle
 const areaOfCircle = PI * radius * radius
 console.log(areaOfCircle) // 31400 m2
 
@@ -161,7 +161,7 @@ console.log(areaOfCircle) // 31400 m2
 const gravity = 9.81 // in m/s2
 let mass = 72        // in Kilogram
 
-// Let us calculate weight of an object
+// Let us calculate the weight of an object
 const weight = mass * gravity
 console.log(weight) // 706.32 N(Newton)
 
@@ -224,7 +224,7 @@ console.log('python'.length > 'dragon'.length)  // false
 
 Try to understand the above comparisons using logic.
 Remembering without any logic might be difficult.
-JavaScript is somewhat a weird kind of programming language.
+JavaScript is somewhat of a weird programming language.
 JavaScript code runs and gives you a result, but unless you are good at it, it may not be the desired result.
 
 As a rule of thumb, if a value is not equal when using ==, it will not be equal when using ===.
@@ -311,7 +311,7 @@ console.log(count)   // -1
 ### Ternary Operators
 
 The ternary operator allows us to write a condition.
-Another way to write conditionals is using ternary operators.
+Another way to write conditionals is to use ternary operators.
 Look at the following examples:
 
 ```js
@@ -350,7 +350,7 @@ number > 0
 
 ### Operator Precedence
 
-I would like to recommend you to read about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence).
+I would like to recommend that you read about operator precedence from this link.
 
 ## Window Methods
 
@@ -489,7 +489,7 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 ### Getting time
 
 This method gives time in milliseconds starting from January 1, 1970.
-It is also known as Unix time. We can get the unix time in two ways:
+It is also known as Unix time. We can get the Unix time in two ways:
 
 1. Using _getTime()_
 
@@ -533,7 +533,7 @@ Now do some exercises for your brain and muscles.
 1. Declare firstName, lastName, country, city, age, isMarried, year variables and assign values to them and use the typeof operator to check different data types.
 2. Check if the type of '10' is equal to 10
 3. Check if parseInt('9.8') is equal to 10
-4. Boolean value is either true or false.
+4. A boolean value is either true or false.
    1. Write three JavaScript statements which provide truthy values.
    2. Write three JavaScript statements which provide falsy values.
 
@@ -573,7 +573,7 @@ Now do some exercises for your brain and muscles.
    4. What is the day today as a number?
    5. What is the hours now?
    6. What is the minutes now?
-   7. Find out the numbers of seconds elapsed from January 1, 1970 to now.
+   7. Find out the number of seconds elapsed from January 1, 1970 to now.
 
 ### Exercises: Level 2
 
