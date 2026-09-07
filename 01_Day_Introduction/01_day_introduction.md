@@ -79,7 +79,7 @@ You only need:
 
 ## Setup
 
-I believe you have the motivation, a strong desire to be a developer, a computer, and an Internet connection.
+I believe you have the motivation, a strong desire to become a developer, a computer, and an Internet connection.
 If you have those, then you have everything to get started.
 
 ### Install Node.js
@@ -109,7 +109,7 @@ However, I strongly recommend Google Chrome.
 
 #### Installing Google Chrome
 
-Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet.
+Install [Google Chrome](https://www.google.com/chrome/) if you do not have it yet.
 We can write some JavaScript code in the browser console, but we do not use the browser console to develop applications.
 
 ![Google Chrome](../images/google_chrome.png)
@@ -137,14 +137,14 @@ After you open the Google Chrome console, try exploring the marked buttons.
 We will spend most of our time in the console.
 The Console is the place where your JavaScript code is executed.
 The V8 engine in Google Chrome converts your JavaScript code to machine code.
-Let us write some JavaScript code on the Google Chrome console:
+Let us write some JavaScript code in the Google Chrome console:
 
 ![write code on console](../images/js_code_on_chrome_console.png)
 
 #### Writing Code in Browser Console
 
-We can write any JavaScript code on the Google Chrome console or any browser console.
-However, for this challenge, we only focus on the Google Chrome console.
+We can write any JavaScript code in the Google Chrome console or any browser console.
+However, for this challenge, we only focus in the Google Chrome console.
 Open the console using:
 
 ```sh
@@ -212,7 +212,7 @@ In JavaScript, any text line starting with `//` is a comment, and anything betwe
 
 Programming languages are similar to human languages.
 English and many other languages use words, phrases, sentences, compound sentences, and other structures to convey a meaningful message.
-The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_.
+In English, syntax refers to _the arrangement of words and phrases to create well-formed sentences_.
 The technical definition of syntax is the structure of statements in a computer language.
 Programming languages have syntax.
 JavaScript is a programming language, and like other programming languages, it has its own syntax.
@@ -248,10 +248,10 @@ console.log(`Hello, World!`)
 
 #### Arithmetic
 
-Now, let us practice writing more JavaScript code for numbers using _`console.log()`_ on the Google Chrome console.
+Now, let us practice writing more JavaScript code for numbers using _`console.log()`_ in the Google Chrome console.
 In addition to printing text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
-It is possible to write JavaScript code on the Google Chrome console directly without using the **_`console.log()`_** function.
+It is possible to write JavaScript code in the Google Chrome console directly without using the **_`console.log()`_** function.
 However, it is included in this introduction because most of the challenge will take place in a text editor, where using the function is required.
 You can play around directly with code in the console.
 
@@ -437,7 +437,7 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your primary script file (e.g., main.js) should be placed below all others_.
+_Your primary script file (e.g., main.js) should be placed after all others_.
 It is very important to remember this.
 
 ![Multiple Script](../images/multiple_script.png)
@@ -478,9 +478,7 @@ A collection of one or more characters between two single quotes, double quotes,
 ### Booleans
 
 A boolean value is either true or false.
-Any comparison returns a boolean value, which is either true or false.
-
-A boolean data type is either true or false.
+Any comparison returns a boolean value.
 
 **Example:**
 
@@ -678,8 +676,8 @@ Now do some exercises for your brain and muscles.
    Check the data type of each variable.
 6. Declare four variables without assigning values.
 7. Declare four variables with assigned values.
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines.
-9. Declare variables to store your first name, last name, marital status, country and age in a single line.
+8. Declare variables to store your first name, last name, marital status, country, and age in multiple lines.
+9. Declare variables to store your first name, last name, marital status, country, and age in a single line.
 10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log them to the browser console.
 
 ```sh
