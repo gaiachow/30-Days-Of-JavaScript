@@ -7,7 +7,7 @@ let city = 'Helsinki'      // capital
 let age = 100              // age in years
 let isMarried = true
 
-// Declare variables with number values
+// Declare variables with numeric values
 
 const gravity = 9.81     // Earth's gravity in m/s^2
 const boilingPoint = 100 // boiling point of water in °C

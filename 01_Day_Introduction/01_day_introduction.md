@@ -636,7 +636,7 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 ```
 
 ```js
-// Declare variables with number values
+// Declare variables with numeric values
 let age = 100            // age in years
 const gravity = 9.81     // earth gravity in m/s^2
 const boilingPoint = 100 // water boiling point, temperature in °C
