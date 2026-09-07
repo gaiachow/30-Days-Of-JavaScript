@@ -158,7 +158,7 @@ Ctrl+Shift+I
 ##### Console.log
 
 To write our first JavaScript code, we use the built-in function **console.log()**.
-We pass an argument as an input, and the function displays the output.
+We pass an argument as input, and the function displays the output.
 We pass `'Hello, World!'` as an argument in the console.log() function.
 
 ```js
