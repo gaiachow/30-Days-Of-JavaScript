@@ -93,7 +93,7 @@ After downloading, double-click the installer and install it.
 
 ![Install Node](../images/install_node.png)
 
-We can check if Node is installed on our local machine by opening our device terminal or command prompt.
+We can check if Node is installed on our local machine by opening our terminal or command prompt.
 
 ```sh
 asabeneh $ node -v
@@ -116,7 +116,7 @@ We can write some JavaScript code in the browser console, but we do not use the 
 
 #### Opening Google Chrome Console
 
-You can open Google Chrome console either by clicking three dots at the top-right corner of the browser, selecting _More tools -> Developer tools_, or by using a keyboard shortcut.
+You can open the Google Chrome console either by clicking the three dots at the top-right corner of the browser and selecting _More tools -> Developer tools_, or by using a keyboard shortcut.
 I prefer using shortcuts.
 
 ![Opening chrome](../images/opening_developer_tool.png)
@@ -133,7 +133,7 @@ Ctrl+Shift+J
 
 ![Opening console](../images/opening_chrome_console_shortcut.png)
 
-After you open the Google Chrome console, try to explore the marked buttons.
+After you open the Google Chrome console, try exploring the marked buttons.
 We will spend most of our time on the Console.
 The Console is the place where your JavaScript code goes.
 The V8 engine in Google Chrome converts your JavaScript code to machine code.
@@ -253,7 +253,7 @@ In addition to printing text, we can also do mathematical calculations using Jav
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without using the **_`console.log()`_** function.
 However, it is included in this introduction because most of this challenge will take place in a text editor, where using the function is required.
-You can play around directly with code on the console.
+You can play around directly with code in the console.
 
 ![Arithmetic](../images/arithmetic.png)
 
@@ -333,7 +333,7 @@ We can create a pop-up alert message using the _`alert()`_ built-in function.
 
 ### Internal Script
 
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it in the body of the HTML document.
+The internal script can be written in the _`head`_ or the _`body`_, but it is preferable to place it in the body of the HTML document.
 First, let us write in the head part of the page.
 
 ```html
@@ -374,11 +374,11 @@ Open the browser console to see the output from the `console.log()`.
 
 ### External Script
 
-Similar to the internal script, the external script link can be in the header or body, but it is preferred to put it in the body.
+Similar to the internal script, the external script link can be in the header or body, but it is preferred to be placed in the body.
 First, we should create an external JavaScript file with a .js extension.
 All files ending with the .js extension are JavaScript files.
 Create a file named introduction.js inside your project directory.
-Write the following code, then link this .js file at the bottom of the body.
+Write the following code, then link this .js file at the end of the body.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript!')
@@ -413,7 +413,7 @@ External scripts in the _body_:
 </html>
 ```
 
-Open the browser console to see the output of the `console.log()`.
+Open the browser console to see the output from the `console.log()`.
 
 ### Multiple External Scripts
 
@@ -449,10 +449,10 @@ The following are JavaScript primitive data types: _String, Number, Boolean, und
 
 ### Numbers
 
-- Integers: Integer (negative, zero and positive) numbers  
+- Integers: negative, zero, and positive whole numbers  
   Example:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Floating-point numbers: Decimal number  
+- Floating-point numbers: decimal numbers  
   Example:
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
@@ -554,11 +554,11 @@ Variables are _containers_ of data.
 Variables are used to _store_ data in a memory location.
 When a variable is declared, a memory location is reserved.
 When a variable is assigned a value (data), the memory space will be filled with that data.
-To declare a variable, we use _var_, _let_, or _const_ keywords.
+To declare a variable, we use the _var_, _let_, or _const_ keywords.
 
 For a variable that changes over time, we use _let_.
 If the data does not change at all, we use _const_.
-For example, PI, country name, gravity do not change, and we can use _const_.
+For example, PI, the country name, and gravity do not change, so we can use _const_.
 We will not use var in this challenge and I don't recommend using it.
 It is an error-prone way of declaring a variable; it has many pitfalls.
 We will talk more about var, let, and const in detail in other sections (scope).
@@ -666,7 +666,7 @@ When you run the _index.html_ file in the 01-Day folder, you should get this:
 
 🌕 You are amazing!
 You have just completed day 1 challenge and you are on your way to greatness.
-Now do some exercises for your brain and muscle.
+Now do some exercises for your brain and muscles.
 
 # 💻 Day 1: Exercises
 
