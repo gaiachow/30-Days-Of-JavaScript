@@ -7,7 +7,7 @@
 */
 
 let string = '30 Days of JavaScript'
-console.log(string.charCodeAt(3)) // D ASCII code is 68
+console.log(string.charCodeAt(3)) // The ASCII code of D is 68
 
 let lastIndex = string.length - 1
-console.log(string.charCodeAt(lastIndex)) // t ASCII code is 116
+console.log(string.charCodeAt(lastIndex)) // The ASCII code of t is 116
