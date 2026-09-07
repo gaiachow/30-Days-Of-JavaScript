@@ -168,7 +168,7 @@ console.log(weight) // 706.32 N (Newton)
 const boilingPoint = 100 // temperature in °C, boiling point of water
 const bodyTemp = 37      // body temperature in °C
 
-// Concatenating string with numbers using string interpolation
+// Concatenating strings with numbers using string interpolation
 /*
   The boiling point of water is 100 °C.
   Human body temperature is 37 °C.
@@ -196,10 +196,10 @@ console.log(2 < 3)              // true, because 2 is less than 3
 console.log(2 <= 3)             // true, because 2 is less than 3
 console.log(3 == 2)             // false, because 3 is not equal to 2
 console.log(3 != 2)             // true, because 3 is not equal to 2
-console.log(3 == '3')           // true, compare only value
+console.log(3 == '3')           // true, compares only the value
 console.log(3 === '3')          // false, compare both value and data type
 console.log(3 !== '3')          // true, compare both value and data type
-console.log(3 != 3)             // false, compare only value
+console.log(3 != 3)             // false, compares only the value
 console.log(3 !== 3)            // false, compare both value and data type
 console.log(0 == false)         // true, equivalent
 console.log(0 === false)        // false, not exactly the same
@@ -235,7 +235,6 @@ The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an 
 
 ### Logical Operators
 
-The following symbols are the common logical operators:
 The common logical operators are: && (logical AND), || (logical OR), and ! (logical NOT).
 The && operator returns true only if both operands are true.
 The || operator returns true if either operand is true.
@@ -286,8 +285,7 @@ console.log(count++) // 0
 console.log(count)   // 1
 ```
 
-We use post-increment most of the time.
-You will find yourself using the post-increment operator most often, so remember it well.
+We use post-increment most of the time, so remember it well.
 
 ### Decrement Operator
 
@@ -388,7 +386,7 @@ console.log(number)
 
 ### Window confirm() method
 
-The confirm() method displays a dialog box with a specified message, along with an OK and a Cancel button.
+The confirm() method displays a dialog box with a specified message, along with OK and Cancel buttons.
 A confirm box is often used to ask the user for permission to execute something.
 The window.confirm() method takes a string as an argument.
 Clicking OK yields a true value, whereas clicking Cancel yields a false value.
