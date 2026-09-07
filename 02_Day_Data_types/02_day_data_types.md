@@ -201,7 +201,7 @@ const PI = Math.PI
 console.log(PI) // 3.141592653589793
 
 // Rounding to the closest number
-// if above .5 rounds up, if less than .5 rounds down
+// if the fractional part is 0.5 or greater, it rounds up; otherwise, it rounds down
 console.log(Math.round(PI))   // 3 to round values to the nearest number
 console.log(Math.round(9.81)) // 10
 
