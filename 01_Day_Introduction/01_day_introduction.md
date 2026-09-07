@@ -59,7 +59,7 @@ Welcome to JavaScript.
 JavaScript is the language of the web.
 I enjoy using and teaching JavaScript, and I hope you will do so too.
 
-In this step‑by‑step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
+In this step-by-step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of humanity.
 JavaScript is used **_to add interactivity to websites and to develop mobile apps, desktop applications, and games_**.
 Nowadays, it is also used for **server-side programming**, **_machine learning_** and **_AI_**.
 
@@ -567,7 +567,7 @@ A valid JavaScript variable name must obey the following rules:
 - A JavaScript variable name should not begin with a number.
 - A JavaScript variable name does not allow special characters except for the dollar sign and underscore.
 - A JavaScript variable name should follow the camelCase convention.
-- A JavaScript variable name should not have space between words.
+- A JavaScript variable name should not have spaces between words.
 
 The following are examples of valid JavaScript variables.
 
