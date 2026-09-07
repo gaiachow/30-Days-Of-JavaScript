@@ -73,7 +73,7 @@ Non-primitive data types in JavaScript include:
 
 Now, let us see what exactly primitive and non-primitive data types mean.
 *Primitive* data types are immutable (non-modifiable) data types.
-Once a primitive data type is created we cannot modify it.
+Once a primitive data type is created, we cannot modify it.
 
 **Example:**
 
@@ -112,13 +112,13 @@ console.log(lightOn == lightOff) // false
 ### Non-Primitive Data Types
 
 *Non-primitive* data types are modifiable or mutable.
-We can modify the value of non-primitive data types after it gets created.
+We can modify the value of non-primitive data types after they get created.
 Let us see this by creating an array.
 An array is a list of data values in a square bracket.
 Arrays can contain the same or different data types.
 Array values are referenced by their index.
-In JavaScript, the array index starts at zero.
-I.e., the first element of an array is found at index zero, the second element at index one, and the third element at index two, etc.
+In JavaScript, the array index starts at zero, i.e.,
+the first element of an array is found at index zero, the second element at index one, and the third element at index two, etc.
 
 ```js
 let nums = [1, 2, 3]
@@ -170,7 +170,7 @@ console.log(userOne == userTwo) // true
 
 If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one.
 Calm down and just go to the next section and try to come back after some time.
-Now let us start the data types by number type.
+Now let us start with the number data type.
 
 ## Numbers
 
@@ -201,7 +201,7 @@ const PI = Math.PI
 console.log(PI) // 3.141592653589793
 
 // Rounding to the closest number
-// if above .5 up if less 0.5 down rounding
+// if above .5 rounds up, if less than .5 rounds down
 console.log(Math.round(PI))   // 3 to round values to the nearest number
 console.log(Math.round(9.81)) // 10
 
@@ -340,10 +340,10 @@ const paragraph = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
 I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
 Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
 At the end of 2019, I was thinking to expand my teaching and to reach \
-to global audience and I started a Python challenge from November 20 - December 19.\
-It was one of the most rewarding and inspiring experience.\
+the global audience and I started a Python challenge from November 20 - December 19.\
+It was one of the most rewarding and inspiring experiences.\
 Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
-I hope you are enjoying too."
+I hope you are enjoying it too."
 
 console.log(paragraph)
 ```
@@ -390,7 +390,7 @@ The saying 'Seeing is Believing' isn't correct in 2020
 
 #### Template Literals (Template Strings)
 
-To create a template string, we use two backticks.
+To create a template string, we use a pair of backticks.
 We can inject data as expressions inside a template string.
 To inject data, we enclose the expression in curly braces (`{}`) preceded by a `$` sign.
 See the syntax below.
@@ -450,10 +450,10 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 
 Everything in JavaScript is an object.
 A string is a primitive data type, which means we cannot modify it once it is created.
-The string object has many string methods.
+JavaScript provides many string methods for working with strings.
 There are different string methods that can help us to work with strings.
 
-1. *length*: The string *length* method returns the number of characters in a string, including empty spaces.
+1. *length*: The string *length* property returns the number of characters in a string, including empty spaces.
 
 **Example:**
 
@@ -939,37 +939,37 @@ Now do some exercises for your brain and for your muscles.
 10. Split the string 30 Days of JavaScript at the space using __split()__ method.
 11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' __split__ the string at the comma and change it to an array.
 12. Change 30 Days of JavaScript to 30 Days of Python using __replace()__ method.
-13. What is character at index 15 in '30 Days of JavaScript' string? Use __charAt()__ method.
+13. What is the character at index 15 in '30 Days of JavaScript' string? Use __charAt()__ method.
 14. What is the character code of J in '30 Days of JavaScript' string using __charCodeAt()__.
 15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days of JavaScript.
 16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days of JavaScript.
 17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
-20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g., ' 30 Days of JavaScript '.
-21. Use __startsWith()__ method with the string *30 Days of JavaScript* and make the result true.
-22. Use __endsWith()__ method with the string *30 Days of JavaScript* and make the result true.
+20. Use __trim()__ to remove whitespace at the beginning and the end of a string, e.g., ' 30 Days of JavaScript '.
+21. Use __startsWith()__ method on the string *30 Days of JavaScript* and make the result true.
+22. Use __endsWith()__ method on the string *30 Days of JavaScript* and make the result true.
 23. Use __match()__ method to find all the __a__’s in 30 Days of JavaScript.
 24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days of JavaScript'.
-25. Use __repeat()__ method to print 30 Days of JavaScript 2 times.
+25. Use __repeat()__ method to print '30 Days of JavaScript' 2 times.
 
 ### Exercises: Level 2
 
-1. Using console.log() print out the following statement:
+1. Use console.log() to print out the following statement:
 
     ```sh
     The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
     ```
 
-2. Using console.log() print out the following quote by Mother Teresa:
+2. Use console.log() to print out the following quote by Mother Teresa:
 
     ```sh
     "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
     ```
 
 3. Check if typeof '10' is exactly equal to 10. If not, make it exactly equal.
-4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal to 10.
-5. Check if 'on' is found in both python and jargon.
+4. Check if parseFloat('9.8') is equal to 10; if not, make it exactly equal to 10.
+5. Check if 'on' is found in both 'python' and 'jargon'.
 6. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
 7. Generate a random number between 0 and 100 inclusively.
 8. Generate a random number between 50 and 100 inclusively.
@@ -997,7 +997,7 @@ Now do some exercises for your brain and for your muscles.
         const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
     ```
 
-4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euros from salary per month, 10000 euros annual bonus, 15000 euros online courses per month.'
 
 🎉 CONGRATULATIONS ! 🎉
 
