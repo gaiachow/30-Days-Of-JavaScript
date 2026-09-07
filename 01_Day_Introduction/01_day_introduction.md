@@ -84,7 +84,7 @@ If you have those, then you have everything to get started.
 
 ### Install Node.js
 
-You may not need Node.js right now but you may need it later.
+You may not need Node.js right now, but you may need it later.
 Install [Node.js](https://nodejs.org/en/).
 
 ![Node download](../images/download_node.png)
@@ -218,7 +218,7 @@ Programming languages have syntax.
 JavaScript is a programming language, and like other programming languages, it has its own syntax.
 If we do not write code with correct syntax, it will throw different types of errors.
 We will explore different kinds of JavaScript errors later.
-For now, let us see syntax errors.
+For now, let's see syntax errors.
 
 ![Error](../images/raising_syntax_error.png)
 
@@ -248,7 +248,7 @@ console.log(`Hello, World!`)
 
 #### Arithmetic
 
-Now, let us practice writing more JavaScript code for numbers using _`console.log()`_ in the Google Chrome console.
+Now, let's practice writing more JavaScript code for numbers using _`console.log()`_ in the Google Chrome console.
 In addition to printing text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code in the Google Chrome console directly without using the **_`console.log()`_** function.
@@ -279,7 +279,7 @@ I would recommend [downloading Visual Studio Code](https://code.visualstudio.com
 
 ![Vscode](../images/vscode.png)
 
-If you have installed Visual Studio Code, let us start using it.
+If you have installed Visual Studio Code, let's start using it.
 
 #### How to Use Visual Studio Code
 
@@ -334,7 +334,7 @@ We can create a pop-up alert message using the _`alert()`_ built-in function.
 ### Internal Script
 
 The internal script can be written in the _`head`_ or the _`body`_, but it is preferable to place it in the body of the HTML document.
-First, let us write in the head part of the page.
+First, let's write in the head part of the page.
 
 ```html
 <!DOCTYPE html>
@@ -565,7 +565,7 @@ For now, the above explanation is enough.
 A valid JavaScript variable name must obey the following rules:
 
 - A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except the dollar sign and underscore.
+- A JavaScript variable name does not allow special characters except for the dollar sign and underscore.
 - A JavaScript variable name should follow the camelCase convention.
 - A JavaScript variable name should not have space between words.
 
@@ -594,8 +594,8 @@ year_2020
 ```
 
 The variables named with camelCase (e.g., firstName, lastName) follow the lower camelCase convention in JavaScript.
-Throughout this course, we will use camelCase (camelWithOneHump) for variables.
-We use UpperCamelCase (CamelWithTwoHumps) for class names; we'll cover classes and objects in a later section.
+Throughout this course, we will use lower camelCase for variables.
+We use UpperCamelCase (or PascalCase) for class names; we'll cover classes and objects in a later section.
 
 **Examples of invalid variables:**
 
