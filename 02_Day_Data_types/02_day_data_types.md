@@ -928,8 +928,8 @@ Now do some exercises for your brain and for your muscles.
 ### Exercises: Level 1
 
 1. Declare a variable named challenge and assign it to an initial value **'30 Days of JavaScript'**.
-2. Print the string to the browser console using __console.log()__.
-3. Print the __length__ of the string on the browser console using _console.log()_.
+2. Print the string to the console using __console.log()__.
+3. Print the __length__ of the string in the console using _console.log()_.
 4. Change all the string characters to capital letters using __toUpperCase()__ method.
 5. Change all the string characters to lowercase letters using __toLowerCase()__ method.
 6. Cut (slice) out the first word of the string using the __substr()__ or __substring()__ method.
