@@ -77,7 +77,7 @@ As mentioned, boolean values are either true or false.
 
 - All numbers (positive and negative) are truthy except for zero
 - All strings are truthy except for an empty string (`''`)
-- The boolean true
+- The boolean value true
 
 ### Falsy values
 
@@ -146,7 +146,7 @@ let div = numOne / numTwo
 let remainder = numOne % numTwo
 let powerOf = numOne ** numTwo
 
-console.log(sum, diff, mult, div, remainder, powerOf) // 7, 1, 12, 1.33, 1, 64
+console.log(sum, diff, mult, div, remainder, powerOf) // 7, 1, 12, 1.333..., 1, 64
 ```
 
 ```js
