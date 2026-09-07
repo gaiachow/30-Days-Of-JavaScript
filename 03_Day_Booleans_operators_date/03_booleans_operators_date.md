@@ -106,7 +106,7 @@ console.log(firstName) // undefined, because it is not assigned to a value yet.
 
 ```js
 let empty = null
-console.log(empty) // null, means no value.
+console.log(empty) // null means no value.
 ```
 
 ## Operators
@@ -151,7 +151,7 @@ console.log(sum, diff, mult, div, remainder, powerOf) // 7, 1, 12, 1.33, 1, 64
 
 ```js
 const PI = 3.14
-let radius = 100 // length in meter
+let radius = 100 // length in meters
 
 // Let us calculate the area of a circle
 const areaOfCircle = PI * radius * radius
@@ -172,10 +172,10 @@ const bodyTemp = 37      // body temperature in °C
 /*
   The boiling point of water is 100 °C.
   Human body temperature is 37 °C.
-  The gravity of earth is 9.81 m/s2.
+  The gravity of Earth is 9.81 m/s2.
 */
 console.log(
-  `The boiling point of water is ${boilingPoint} °C.\nHuman body temperature is ${bodyTemp} °C.\nThe gravity of earth is ${gravity} m/s^2.`
+  `The boiling point of water is ${boilingPoint} °C.\nHuman body temperature is ${bodyTemp} °C.\nThe gravity of Earth is ${gravity} m/s^2.`
 )
 ```
 
@@ -197,10 +197,10 @@ console.log(2 <= 3)             // true, because 2 is less than 3
 console.log(3 == 2)             // false, because 3 is not equal to 2
 console.log(3 != 2)             // true, because 3 is not equal to 2
 console.log(3 == '3')           // true, compares only the value
-console.log(3 === '3')          // false, compare both value and data type
-console.log(3 !== '3')          // true, compare both value and data type
+console.log(3 === '3')          // false, compares both value and data type
+console.log(3 !== '3')          // true, compares both value and data type
 console.log(3 != 3)             // false, compares only the value
-console.log(3 !== 3)            // false, compare both value and data type
+console.log(3 !== 3)            // false, compares both value and data type
 console.log(0 == false)         // true, equivalent
 console.log(0 === false)        // false, not exactly the same
 console.log(0 == '')            // true, equivalent
@@ -210,7 +210,7 @@ console.log(1 == true)          // true, equivalent
 console.log(1 === true)         // false, not exactly the same
 console.log(undefined == null)  // true
 console.log(undefined === null) // false
-console.log(NaN == NaN)         // false, not equal
+console.log(NaN == NaN)         // false, NaN is not equal to itself
 console.log(NaN === NaN)        // false
 console.log(typeof NaN)         // number
 
@@ -265,7 +265,7 @@ let isMarried = !false      // true
 
 ### Increment Operator
 
-In JavaScript we use the increment operator to increase a value stored in a variable.
+In JavaScript, we use the increment operator to increase a value stored in a variable.
 The increment could be pre-increment or post-increment.
 Let us see each of them:
 
@@ -412,7 +412,7 @@ _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes(), getSe
 ### Creating a time object
 
 Once we create a time object, it will provide information about time.
-Let us create a time object
+Let's create a time object.
 
 ```js
 const now = new Date()
@@ -488,7 +488,7 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 ### Getting time
 
-This method gives time in milliseconds starting from January 1, 1970.
+This method returns the time in milliseconds since January 1, 1970.
 It is also known as Unix time. We can get the Unix time in two ways:
 
 1. Using _getTime()_
