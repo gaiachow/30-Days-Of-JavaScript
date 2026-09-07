@@ -155,7 +155,7 @@ let radius = 100 // length in meter
 
 // Let us calculate the area of a circle
 const areaOfCircle = PI * radius * radius
-console.log(areaOfCircle) // 31400 m2
+console.log(areaOfCircle) // 31400 m^2
 
 
 const gravity = 9.81 // in m/s2
@@ -163,18 +163,17 @@ let mass = 72        // in Kilogram
 
 // Let us calculate the weight of an object
 const weight = mass * gravity
-console.log(weight) // 706.32 N(Newton)
+console.log(weight) // 706.32 N (Newton)
 
 const boilingPoint = 100 // temperature in °C, boiling point of water
 const bodyTemp = 37      // body temperature in °C
 
-
 // Concatenating string with numbers using string interpolation
 /*
- The boiling point of water is 100 °C.
- Human body temperature is 37 °C.
- The gravity of earth is 9.81 m/s2.
- */
+  The boiling point of water is 100 °C.
+  Human body temperature is 37 °C.
+  The gravity of earth is 9.81 m/s2.
+*/
 console.log(
   `The boiling point of water is ${boilingPoint} °C.\nHuman body temperature is ${bodyTemp} °C.\nThe gravity of earth is ${gravity} m/s^2.`
 )
@@ -182,7 +181,9 @@ console.log(
 
 ### Comparison Operators
 
-In programming, we compare values. We use comparison operators to compare two values. We check if a value is greater than, less than, or equal to another value.
+In programming, we compare values.
+We use comparison operators to compare two values.
+We check if a value is greater than, less than, or equal to another value.
 
 ![Comparison Operators](../images/comparison_operators.png)
 **Example: Comparison Operators**
@@ -190,7 +191,7 @@ In programming, we compare values. We use comparison operators to compare two va
 ```js
 console.log(3 > 2)              // true, because 3 is greater than 2
 console.log(3 >= 2)             // true, because 3 is greater than 2
-console.log(3 < 2)              // false,  because 3 is greater than 2
+console.log(3 < 2)              // false, because 3 is greater than 2
 console.log(2 < 3)              // true, because 2 is less than 3
 console.log(2 <= 3)             // true, because 2 is less than 3
 console.log(3 == 2)             // false, because 3 is not equal to 2
@@ -219,7 +220,7 @@ console.log('mango'.length < 'avocado'.length)  // true
 console.log('milk'.length == 'meat'.length)     // true
 console.log('milk'.length != 'meat'.length)     // false
 console.log('tomato'.length == 'potato'.length) // true
-console.log('python'.length > 'dragon'.length) // false
+console.log('python'.length > 'dragon'.length)  // false
 ```
 
 Try to understand the above comparisons using logic.
@@ -227,7 +228,8 @@ Remembering without any logic might be difficult.
 JavaScript can sometimes behave unexpectedly in comparison operations.
 JavaScript code runs and gives you a result, but if you are not careful, it may not be the desired result.
 
-As a rule of thumb, it is safer to use === because == performs type coercion, which can lead to unexpected results (e.g., 0 == false is true, but 0 === false is false).
+As a rule of thumb, it is safer to use === because == performs type coercion, which can lead to unexpected results 
+(e.g., 0 == false is true, but 0 === false is false).
 Using === is safer than using ==.
 The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
@@ -276,7 +278,7 @@ console.log(++count) // 1
 console.log(count)   // 1
 ```
 
-1. Post-increment
+2. Post-increment
 
 ```js
 let count = 0
@@ -400,7 +402,8 @@ These are not all the window methods; we will have a separate section to dive de
 
 ## Date Object
 
-Time is an important aspect of programming. We often need to know the exact time of an activity or event.
+Time is an important aspect of programming.
+We often need to know the exact time of an activity or event.
 In JavaScript, the current time and date are created using the JavaScript Date object.
 The object we create using the Date object provides many methods to work with dates and times.
 The methods we use to get date and time information from a date object start with the word _get_, because they provide that information.
@@ -508,6 +511,7 @@ console.log(allMilliseconds == timeInMilliseconds) // true
 ```
 
 Let us format these values into a human-readable time format.
+
 **Example:**
 
 ```js
@@ -530,8 +534,8 @@ Now do some exercises for your brain and muscles.
 ### Exercises: Level 1
 
 1. Declare firstName, lastName, country, city, age, isMarried, year variables and assign values to them and use the typeof operator to check different data types.
-2. Check if the type of '10' is equal to 10
-3. Check if parseInt('9.8') is equal to 10
+2. Check if the type of '10' is equal to 10.
+3. Check if parseInt('9.8') is equal to 10.
 4. A boolean value is either true or false.
    1. Write three JavaScript statements which provide truthy values.
    2. Write three JavaScript statements which provide falsy values.
@@ -584,7 +588,7 @@ Now do some exercises for your brain and muscles.
    The area of the triangle is 100
    ```
 
-2. Write a script that prompts the user to enter side a, side b, and side c of the triangle and calculate the perimeter of triangle (perimeter = a + b + c)
+2. Write a script that prompts the user to enter side a, side b, and side c of the triangle and calculate the perimeter of triangle (perimeter = a + b + c).
 
    ```sh
    Enter side a: 5
@@ -593,9 +597,9 @@ Now do some exercises for your brain and muscles.
    The perimeter of the triangle is 12
    ```
 
-3. Get length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width))
+3. Get length and width using prompt and calculate the area of the rectangle (area = length x width) and the perimeter of the rectangle (perimeter = 2 x (length + width)).
 4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2
+5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2.
 6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between points (2,2) and (6,10).
 7. Compare the slopes from the above two questions.
 8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
