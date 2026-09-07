@@ -60,10 +60,11 @@ JavaScript is the language of the web.
 I enjoy using and teaching JavaScript, and I hope you will do so too.
 
 In this step‑by‑step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, and games_**.
+JavaScript is used **_to add interactivity to websites and to develop mobile apps, desktop applications, and games_**.
 Nowadays, it is also used for **server-side programming**, **_machine learning_** and **_AI_**.
 
-**_JavaScript (JS)_** has increased in popularity in recent years, has been the leading programming language for the last ten years, and is the most used programming language on GitHub.
+**_JavaScript (JS)_** has increased in popularity in recent years.
+It has been the leading programming language for the last decade and is the most used programming language on GitHub.
 
 ## Requirements
 
