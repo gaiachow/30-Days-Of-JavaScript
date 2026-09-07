@@ -198,12 +198,12 @@ In JavaScript, any text line starting with `//` is a comment, and anything betwe
 // I am a single line comment
 ```
 
-**Example: Multiline Comment**
+**Example: Multi-line Comment**
 
 ```js
 /*
   This is a multi‑line comment
-  Multiline comments can take multiple lines
+  Multi-line comments can take multiple lines
   JavaScript is the language of the web
 */
 ```
@@ -525,7 +525,7 @@ Comments are important in making your code more readable.
 There are two ways of commenting:
 
 - _Single line commenting_
-- _Multiline commenting_
+- _Multi-line commenting_
 
 **Single line commenting:**
 
@@ -535,7 +535,7 @@ There are two ways of commenting:
 // let lastName = 'Yetayeh'; single line comment
 ```
 
-**Multiline commenting:**
+**Multi-line commenting:**
 
 ```js
 /*
@@ -620,7 +620,7 @@ See below for detailed examples.
 **Examples of declared variables:**
 
 ```js
-// Declare different variables of different data types
+// Declare variables of different data types
 let firstName = 'Asabeneh' // first name of a person
 let lastName = 'Yetayeh'   // last name of a person
 let residence = 'Finland'  // residence
