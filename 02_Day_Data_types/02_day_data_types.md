@@ -506,7 +506,7 @@ console.log(country.toUpperCase()) // FINLAND
 4. *toLowerCase()*: This method changes the string to lowercase letters.
 
 ```js
-let string = 'JavasCript'
+let string = 'JavaScript'
 console.log(string.toLowerCase()) // javascript
 
 let firstName = 'Asabeneh'
