@@ -57,13 +57,13 @@
 The **30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers.
 Welcome to JavaScript.
 JavaScript is the language of the web.
-I enjoy using and teaching JavaScript and I hope you will do so too.
+I enjoy using and teaching JavaScript, and I hope you will do so too.
 
 In this step‑by‑step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
 JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, and games_**.
 Nowadays, it is also used for **server-side programming**, **_machine learning_** and **_AI_**.
 
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading programming language for the last ten years and is the most used programming language on GitHub.
+**_JavaScript (JS)_** has increased in popularity in recent years, has been the leading programming language for the last ten years, and is the most used programming language on GitHub.
 
 ## Requirements
 
@@ -115,7 +115,7 @@ We can write some JavaScript code in the browser console, but we do not use the 
 
 #### Opening Google Chrome Console
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_, or by using a keyboard shortcut.
+You can open Google Chrome console either by clicking three dots at the top-right corner of the browser, selecting _More tools -> Developer tools_, or by using a keyboard shortcut.
 I prefer using shortcuts.
 
 ![Opening chrome](../images/opening_developer_tool.png)
@@ -142,7 +142,7 @@ Let us write some JavaScript code on the Google Chrome console:
 
 #### Writing Code in Browser Console
 
-We can write any JavaScript code on the Google console or any browser console.
+We can write any JavaScript code on the Google Chrome console or any browser console.
 However, for this challenge, we only focus on the Google Chrome console.
 Open the console using:
 
@@ -157,8 +157,8 @@ Ctrl+Shift+I
 ##### Console.log
 
 To write our first JavaScript code, we use the built-in function **console.log()**.
-We pass an argument as input data, and the function displays the output.
-We pass `'Hello, World!'` as input data or argument in the console.log() function.
+We pass an argument as an input, and the function displays the output.
+We pass `'Hello, World!'` as an argument in the console.log() function.
 
 ```js
 console.log('Hello, World!')
@@ -185,7 +185,7 @@ You wrote your first JavaScript code using _`console.log()`_.
 ##### Comments
 
 We can add comments to our code.
-Comments are very important to make code more readable and to leave remarks in our code.
+Comments are very important for making code more readable and for adding remarks in our code.
 JavaScript does not execute the comment part of our code.
 In JavaScript, any text line starting with `//` is a comment, and anything between `/*` and `*/` is a multi-line comment.
 
@@ -210,7 +210,7 @@ In JavaScript, any text line starting with `//` is a comment, and anything betwe
 ##### Syntax
 
 Programming languages are similar to human languages.
-English and many other languages use words, phrases, sentences, compound sentences and other structures to convey a meaningful message.
+English and many other languages use words, phrases, sentences, compound sentences, and other structures to convey a meaningful message.
 The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_.
 The technical definition of syntax is the structure of statements in a computer language.
 Programming languages have syntax.
@@ -250,7 +250,7 @@ console.log(`Hello, World!`)
 Now, let us practice writing more JavaScript code using _`console.log()`_ on the Google Chrome console for numbers.
 In addition to printing text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
-It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function.
+It is possible to write JavaScript code on the Google Chrome console directly without using the **_`console.log()`_** function.
 However, it is included in this introduction because most of this challenge will take place in a text editor, where using the function is required.
 You can play around directly with code on the console.
 
@@ -268,7 +268,7 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 ### Code Editor
 
 We can write our code in the browser console, but it is not suitable for bigger projects.
-In a real working environment, developers use different code editors to write their code.
+In a real-world development environment, developers use different code editors to write their code.
 In this 30-day JavaScript challenge, we will be using Visual Studio Code.
 
 #### Installing Visual Studio Code
@@ -327,7 +327,7 @@ Then paste the following code and open it in a browser, for example [Chrome](htt
 </html>
 ```
 
-Now, you just wrote your first inline script.
+Now, you have just written your first inline script.
 We can create a pop-up alert message using the _`alert()`_ built-in function.
 
 ### Internal Script
@@ -500,7 +500,7 @@ console.log(firstName) // undefined, because it is not assigned to a value yet
 
 ### Null
 
-Null in JavaScript means an empty value.
+Null in JavaScript represents an empty value.
 
 ```js
 let emptyValue = null
@@ -563,11 +563,11 @@ It is an error-prone way of declaring a variable; it has many pitfalls.
 We will talk more about var, let, and const in detail in other sections (scope).
 For now, the above explanation is enough.
 
-A valid JavaScript variable name must follow the following rules:
+A valid JavaScript variable name must obey the following rules:
 
 - A JavaScript variable name should not begin with a number.
 - A JavaScript variable name does not allow special characters except the dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
+- A JavaScript variable name should follow the camelCase convention.
 - A JavaScript variable name should not have space between words.
 
 The following are examples of valid JavaScript variables.
