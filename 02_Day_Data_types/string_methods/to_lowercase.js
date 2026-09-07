@@ -1,6 +1,6 @@
 // toLowerCase(): Changes the string to lowercase letters.
 
-let string = 'JavasCript'
+let string = 'JavaScript'
 console.log(string.toLowerCase()) // javascript
 
 let firstName = 'Asabeneh'
