@@ -81,7 +81,7 @@ Once a primitive data type is created, we cannot modify it.
 let word = 'JavaScript'
 ```
 
-If we try to modify the string stored in variable *word*, the index assignment will have no effect (the string remains unchanged).
+If we try to modify the string stored in the variable *word*, the index assignment will have no effect (the string remains unchanged).
 In strict mode, it may throw a TypeError, but generally strings are immutable and cannot be modified by index assignment.
 Any value enclosed in single quotes, double quotes, or backticks is a string data type.
 
@@ -90,7 +90,7 @@ word[0] = 'Y'
 ```
 
 This expression does not change the string stored in the variable *word*.
-So, we can say that strings are not modifiable or in other words immutable.
+So, we can say that strings are not modifiable or in other words, immutable.
 Primitive data types are compared by their values.
 Let us compare different data values.
 See the example below:
@@ -112,7 +112,7 @@ console.log(lightOn == lightOff) // false
 ### Non-Primitive Data Types
 
 *Non-primitive* data types are modifiable or mutable.
-We can modify the value of non-primitive data types after they get created.
+We can modify the value of non-primitive data types after they are created.
 Let us see this by creating an array.
 An array is a list of data values in square brackets.
 Arrays can contain the same or different data types.
@@ -169,7 +169,7 @@ console.log(userOne == userTwo) // true
 ```
 
 If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one.
-Calm down and just go to the next section and try coming back after some time.
+Calm down and just go to the next section and try to come back after some time.
 Now let us start with the number data type.
 
 ## Numbers
@@ -516,7 +516,7 @@ let country = 'Finland'
 console.log(country.toLowerCase()) // finland
 ```
 
-5. *substr()*: It takes two arguments, the starting index and number of characters, to slice.
+5. *substr()*: Takes two arguments (the starting index and the number of characters) and returns the sliced substring.
 
 ```js
 // Note: substr() is deprecated; consider using slice() or substring() in modern code.
@@ -815,7 +815,7 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 
 ### Checking Data Types
 
-To check the data type of a certain variable we use the _typeof_ operator.
+To check the data type of a certain variable, we use the _typeof_ operator.
 
 **Example:**
 
