@@ -17,4 +17,4 @@ const PI = 3.14          // mathematical constant
 
 let name = 'Asabeneh', // name of a person
   job = 'teacher',
-  live = 'Finland'
+  residence = 'Finland'

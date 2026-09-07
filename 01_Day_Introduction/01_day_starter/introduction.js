@@ -1,1 +1,1 @@
-console.log('Welcome to 30 Days Of JavaScript!')
+console.log('Welcome to 30 Days of JavaScript!')

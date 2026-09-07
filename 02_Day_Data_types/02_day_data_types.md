@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>30 Days Of JavaScript: Data Types</h1>
+  <h1>30 Days of JavaScript: Data Types</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -360,7 +360,7 @@ Let's see the most common escape characters:
 - `\"`: Double quote (")
 
 ```js
-console.log('I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?') // line break
+console.log('I hope everyone is enjoying the 30 Days of JavaScript challenge.\nDo you ?') // line break
 console.log('Days\tTopics\tExercises')
 console.log('Day 1\t3\t5')
 console.log('Day 2\t3\t5')
@@ -375,7 +375,7 @@ console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
 **Output in console:**
 
 ```sh
-I hope everyone is enjoying the 30 Days Of JavaScript challenge.
+I hope everyone is enjoying the 30 Days of JavaScript challenge.
 Do you ?
 Days  Topics  Exercises
 Day 1 3 5
@@ -545,9 +545,9 @@ console.log(country.substring(3))    // land
 7. *split()*: This method splits a string at a specified place.
 
 ```js
-let string = '30 Days Of JavaScript'
-console.log(string.split())    // Changes to an array -> ["30 Days Of JavaScript"]
-console.log(string.split(' ')) // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
+let string = '30 Days of JavaScript'
+console.log(string.split())    // Changes to an array -> ["30 Days of JavaScript"]
+console.log(string.split(' ')) // Split to an array at space -> ["30", "Days", "of", "JavaScript"]
 
 let firstName = 'Asabeneh'
 console.log(firstName.split())   // Changes to an array -> ["Asabeneh"]
@@ -562,7 +562,7 @@ console.log(countries.split(', ')) // ["Finland", "Sweden", "Norway", "Denmark"
 8. *trim()*: Removes leading and trailing whitespace from a string.
 
 ```js
-let string = '   30 Days Of JavaScript   '
+let string = '   30 Days of JavaScript   '
 console.log(string)
 console.log(string.trim())
 
@@ -572,8 +572,8 @@ console.log(firstName.trim()) // still removes spaces at the beginning and the e
 ```
 
 ```sh
-   30 Days Of JavaScript   
-30 Days Of JavaScript
+   30 Days of JavaScript   
+30 Days of JavaScript
   Asabeneh 
 Asabeneh
 ```
@@ -582,7 +582,7 @@ Asabeneh
    It returns a boolean (true or false).
 
 ```js
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 console.log(string.includes('Days'))   // true
 console.log(string.includes('days'))   // false - it is case sensitive!
 console.log(string.includes('Script')) // true
@@ -605,8 +605,8 @@ string.replace(oldsubstring, newsubstring)
 ```
 
 ```js
-let string = '30 Days Of JavaScript'
-console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
+let string = '30 Days of JavaScript'
+console.log(string.replace('JavaScript', 'Python')) // 30 Days of Python
 
 let country = 'Finland'
 console.log(country.replace('Fin', 'Noman')) // Nomanland
@@ -620,7 +620,7 @@ string.charAt(index)
 ```
 
 ```js
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 console.log(string.charAt(0)) // 3
 
 let lastIndex = string.length - 1
@@ -635,7 +635,7 @@ string.charCodeAt(index)
 ```
 
 ```js
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 console.log(string.charCodeAt(3)) // D ASCII number is 68
 
 let lastIndex = string.length - 1
@@ -651,7 +651,7 @@ string.indexOf(substring)
 ```
 
 ```js
-let string = '30 Days Of JavaScript'
+let string = '30 Days of JavaScript'
 
 console.log(string.indexOf('D'))          // 3
 console.log(string.indexOf('Days'))       // 3
@@ -927,31 +927,31 @@ Now do some exercises for your brain and for your muscles.
 
 ### Exercises: Level 1
 
-1. Declare a variable named challenge and assign it to an initial value **'30 Days Of JavaScript'**.
+1. Declare a variable named challenge and assign it to an initial value **'30 Days of JavaScript'**.
 2. Print the string to the browser console using __console.log()__.
 3. Print the __length__ of the string on the browser console using _console.log()_.
 4. Change all the string characters to capital letters using __toUpperCase()__ method.
 5. Change all the string characters to lowercase letters using __toLowerCase()__ method.
 6. Cut (slice) out the first word of the string using the __substr()__ or __substring()__ method.
-7. Slice out the phrase *Days Of JavaScript* from *30 Days Of JavaScript*.
+7. Slice out the phrase *Days of JavaScript* from *30 Days of JavaScript*.
 8. Check if the string contains a word __Script__ using __includes()__ method.
 9. Split the __string__ into an __array__ using __split()__ method.
-10. Split the string 30 Days Of JavaScript at the space using __split()__ method.
+10. Split the string 30 Days of JavaScript at the space using __split()__ method.
 11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' __split__ the string at the comma and change it to an array.
-12. Change 30 Days Of JavaScript to 30 Days Of Python using __replace()__ method.
-13. What is character at index 15 in '30 Days Of JavaScript' string? Use __charAt()__ method.
-14. What is the character code of J in '30 Days Of JavaScript' string using __charCodeAt()__.
-15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days Of JavaScript.
-16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days Of JavaScript.
+12. Change 30 Days of JavaScript to 30 Days of Python using __replace()__ method.
+13. What is character at index 15 in '30 Days of JavaScript' string? Use __charAt()__ method.
+14. What is the character code of J in '30 Days of JavaScript' string using __charCodeAt()__.
+15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days of JavaScript.
+16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days of JavaScript.
 17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
-20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g., ' 30 Days Of JavaScript '.
-21. Use __startsWith()__ method with the string *30 Days Of JavaScript* and make the result true.
-22. Use __endsWith()__ method with the string *30 Days Of JavaScript* and make the result true.
-23. Use __match()__ method to find all the __a__’s in 30 Days Of JavaScript.
-24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'.
-25. Use __repeat()__ method to print 30 Days Of JavaScript 2 times.
+20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g., ' 30 Days of JavaScript '.
+21. Use __startsWith()__ method with the string *30 Days of JavaScript* and make the result true.
+22. Use __endsWith()__ method with the string *30 Days of JavaScript* and make the result true.
+23. Use __match()__ method to find all the __a__’s in 30 Days of JavaScript.
+24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days of JavaScript'.
+25. Use __repeat()__ method to print 30 Days of JavaScript 2 times.
 
 ### Exercises: Level 2
 

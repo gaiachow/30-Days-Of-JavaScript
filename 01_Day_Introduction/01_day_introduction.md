@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>30 Days Of JavaScript: Introduction</h1>
+  <h1>30 Days of JavaScript: Introduction</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -624,12 +624,12 @@ See below for detailed examples.
 // Declare different variables of different data types
 let firstName = 'Asabeneh' // first name of a person
 let lastName = 'Yetayeh'   // last name of a person
-let country = 'Finland'    // country
+let residence = 'Finland'  // residence
 let city = 'Helsinki'      // capital city
 let age = 100              // age in years
 let isMarried = true
 
-console.log(firstName, lastName, country, city, age, isMarried)
+console.log(firstName, lastName, residence, city, age, isMarried)
 ```
 
 ```sh
