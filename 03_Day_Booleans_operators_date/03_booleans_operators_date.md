@@ -224,7 +224,7 @@ console.log('python'.length > 'dragon'.length)  // false
 ```
 
 Try to understand the above comparisons using logic.
-Remembering without any logic might be difficult.
+Memorizing them without understanding the logic might be difficult.
 JavaScript can sometimes behave unexpectedly in comparison operations.
 JavaScript code runs and gives you a result, but if you are not careful, it may not be the desired result.
 
@@ -406,7 +406,7 @@ Time is an important aspect of programming.
 We often need to know the exact time of an activity or event.
 In JavaScript, the current time and date are created using the JavaScript Date object.
 The object we create using the Date object provides many methods to work with dates and times.
-The methods we use to get date and time information from a date object start with the word _get_, because they provide that information.
+The methods we use to get date and time information from a date object start with the word _get_ (e.g., getFullYear, getMonth).
 _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes(), getSeconds(), getMilliseconds(), getTime()_
 
 ![Date time Object](../images/date_time_object.png)
@@ -567,7 +567,7 @@ Now do some exercises for your brain and muscles.
    8. !(4 > 3 && 10 < 12)
    9. !(4 > 3 && 10 > 12)
    10. !(4 === '4')
-   11. Check if there is 'on' in both 'dragon' and 'python'.
+   11. Check if both 'dragon' and 'python' contain the substring 'on'.
 
 7. Use the Date object to do the following activities:
    1. What is the year today?
@@ -576,7 +576,7 @@ Now do some exercises for your brain and muscles.
    4. What is the day today as a number?
    5. What is the hours now?
    6. What is the minutes now?
-   7. Find out the number of seconds elapsed from January 1, 1970 to now.
+   7. Find out the number of seconds elapsed from January 1, 1970, to the present.
 
 ### Exercises: Level 2
 
@@ -662,6 +662,6 @@ Now do some exercises for your brain and muscles.
 
 1. Create a human readable time format using the Date time object.
    The hour and minute should always be two digits (e.g., 7 should be 07 and 5 should be 05).
-   1. YYY-MM-DD HH:mm eg. 2020-01-02 07:05
+   1. YYYY-MM-DD HH:mm eg. 2020-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
