@@ -240,22 +240,22 @@ The || operator gets true if either operand is true.
 The ! operator negates true to false and false to true.
 
 ```js
-// && ampersand operator example
+// && ampersand operator examples
 
-const check = 4 > 3 && 10 > 5 // true && true -> true
-const check = 4 > 3 && 10 < 5 // true && false -> false
-const check = 4 < 3 && 10 < 5 // false && false -> false
+const checkAnd1 = 4 > 3 && 10 > 5 // true && true -> true
+const checkAnd2 = 4 > 3 && 10 < 5 // true && false -> false
+const checkAnd3 = 4 < 3 && 10 < 5 // false && false -> false
 
-// || pipe or operator, examples
+// || pipe or operator examples
 
-const check = 4 > 3 || 10 > 5 // true || true -> true
-const check = 4 > 3 || 10 < 5 // true || false -> true
-const check = 4 < 3 || 10 < 5 // false || false -> false
+const checkOr1 = 4 > 3 || 10 > 5 // true || true -> true
+const checkOr2 = 4 > 3 || 10 < 5 // true || false -> true
+const checkOr3 = 4 < 3 || 10 < 5 // false || false -> false
 
 //! Negation examples
 
-let check1 = 4 > 3    // true
-let check2 = !(4 > 3) // false
+let checkNeg1 = 4 > 3    // true
+let checkNeg2 = !(4 > 3) // false
 
 let isLightOn = true
 let isLightOff = !isLightOn // false
@@ -499,14 +499,14 @@ const now = new Date()
 console.log(now.getTime()) // 1578092201341, this is the number of milliseconds passed from January 1, 1970 to January 4, 2020 00:56:41
 ```
 
-1. Using _Date.now()_
+2. Using _Date.now()_
 
 ```js
-const allSeconds = Date.now()
-console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+const allMilliseconds = Date.now()
+console.log(allMilliseconds) // 1578092201341, this is the number of milliseconds passed from January 1, 1970 to January 4, 2020 00:56:41
 
-const timeInSeconds = new Date().getTime()
-console.log(allSeconds == timeInSeconds) // true
+const timeInMilliseconds = new Date().getTime()
+console.log(allMilliseconds == timeInMilliseconds) // true
 ```
 
 Let us format these values to a human readable time format.
