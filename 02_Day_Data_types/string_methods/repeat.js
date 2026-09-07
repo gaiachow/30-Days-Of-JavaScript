@@ -1,4 +1,4 @@
-// repeat(): Takes a number argument and returns the repeated version of the string.
+// repeat(): Takes a number as an argument and returns the string repeated that many times.
 
 /*
   Syntax:
