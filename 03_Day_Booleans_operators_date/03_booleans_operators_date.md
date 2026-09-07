@@ -394,7 +394,7 @@ The window.confirm() method takes a string as an argument.
 Clicking OK yields a true value, whereas clicking Cancel yields a false value.
 
 ```js
-const agree = confirm('Are you sure you like to delete? ')
+const agree = confirm('Are you sure you want to delete? ')
 console.log(agree) // The result will be true or false based on what you click on the dialog box.
 ```
 
