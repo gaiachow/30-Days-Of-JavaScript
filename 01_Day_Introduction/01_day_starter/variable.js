@@ -1,4 +1,4 @@
-// Declare different variables of different data types
+// Declare variables of different data types
 
 let firstName = 'Asabeneh' // first name
 let lastName = 'Yetayeh'   // last name
