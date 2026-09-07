@@ -57,7 +57,7 @@
 
 A boolean data type represents one of the two values: _true_ or _false_.
 A Boolean value is either true or false.
-The use of these data types will be clear when you start using comparison operators.
+The importance of these data types will become clear when you start using comparison operators.
 Any comparison returns a boolean value which is either true or false.
 
 **Example: Boolean Values**
@@ -71,11 +71,11 @@ let trueValue = 4 > 3  // true
 let falseValue = 4 < 3 // false
 ```
 
-We agree that boolean values are either true or false.
+As mentioned, boolean values are either true or false.
 
 ### Truthy values
 
-- All numbers(positive and negative) are truthy except zero
+- All numbers (positive and negative) are truthy except zero
 - All strings are truthy except an empty string (`''`)
 - The boolean true
 
@@ -89,13 +89,13 @@ We agree that boolean values are either true or false.
 - the boolean false
 - '', "", ``, empty string
 
-It is good to remember those truthy values and falsy values.
+It is good to remember these truthy and falsy values.
 In later section, we will use them with conditions to make decisions.
 
 ## Undefined
 
 If we declare a variable and do not assign a value, the value will be undefined.
-In addition, if a function does not return a value, it will be undefined.
+In addition, if a function does not return a value, the result is undefined.
 
 ```js
 let firstName
@@ -133,8 +133,8 @@ Arithmetic operators are mathematical operators.
 - Subtraction(-): a - b
 - Multiplication(*): a * b
 - Division(/): a / b
-- Modulus(%): a % b
-- Exponential(**): a ** b
+- Modulus (%): a % b
+- Exponential (**): a ** b
 
 ```js
 let numOne = 4
@@ -176,7 +176,7 @@ const bodyTemp = 37      // body temperature in °C
  The gravity of earth is 9.81 m/s2.
  */
 console.log(
-  `The boiling point of water is ${boilingPoint} °C.\nHuman body temperature is ${bodyTemp} °C.\nThe gravity of earth is ${gravity} m / s2.`
+  `The boiling point of water is ${boilingPoint} °C.\nHuman body temperature is ${bodyTemp} °C.\nThe gravity of earth is ${gravity} m/s^2.`
 )
 ```
 
@@ -224,7 +224,7 @@ console.log('python'.length > 'dragon'.length)  // false
 
 Try to understand the above comparisons using logic.
 Remembering without any logic might be difficult.
-JavaScript is somewhat of a weird programming language.
+JavaScript can sometimes behave unexpectedly in comparison operations.
 JavaScript code runs and gives you a result, but unless you are good at it, it may not be the desired result.
 
 As a rule of thumb, if a value is not equal when using ==, it will not be equal when using ===.
@@ -234,7 +234,7 @@ The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an 
 ### Logical Operators
 
 The following symbols are the common logical operators:
-&& (ampersand) , || (pipe) and ! (negation).
+&& (ampersand), || (pipe) and ! (negation).
 The && operator returns true only if both operands are true.
 The || operator returns true if either operand is true.
 The ! operator negates true to false and false to true.
@@ -285,7 +285,7 @@ console.log(count)   // 1
 ```
 
 We use post-increment most of the time.
-At least, you should remember how to use the post-increment operator.
+You will find yourself using the post-increment operator most often, so remember it well.
 
 ### Decrement Operator
 
@@ -350,7 +350,7 @@ number > 0
 
 ### Operator Precedence
 
-I would like to recommend that you read about operator precedence from this link.
+I recommend reading about operator precedence in the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence).
 
 ## Window Methods
 
@@ -371,7 +371,7 @@ Do not use alert too much because it is disruptive and annoying; use it only for
 
 ### Window prompt() method
 
-The window.prompt() method displays a prompt box with an input field in your browser to take input values, and the input data can be stored in a variable.
+The window.prompt() method displays a prompt box with an input field in your browser, allowing the user to input a value.
 The prompt() method takes two arguments.
 The second argument is optional.
 
@@ -400,8 +400,7 @@ These are not all the window methods; we will have a separate section to dive de
 
 ## Date Object
 
-Time is an important thing.
-We like to know the time of a certain activity or event.
+Time is an important aspect of programming. We often need to know the exact time of an activity or event.
 In JavaScript, the current time and date are created using the JavaScript Date object.
 The object we create using the Date object provides many methods to work with dates and times.
 The methods we use to get date and time information from a date object start with the word _get_, because they provide that information.
@@ -423,7 +422,7 @@ We have created a time object and we can access any date time information from t
 
 ### Getting full year
 
-Let's extract or get the full year from a time object.
+Let's get the full year from a time object.
 
 ```js
 const now = new Date()
@@ -432,36 +431,36 @@ console.log(now.getFullYear()) // 2020
 
 ### Getting month
 
-Let's extract or get the month from a time object.
+Let's get the month from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getMonth()) // 0, because the month is January,  month (0-11)
+console.log(now.getMonth()) // 0, because the month is January (months are indexed from 0 to 11).
 ```
 
 ### Getting date
 
-Let's extract or get the date of the month from a time object.
+Let's get the date of the month from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getDate()) // 4, because the day of the month is 4th,  day (1-31)
+console.log(now.getDate()) // 4, because the day of the month is the 4th (days are from 1 to 31).
 ```
 
 ### Getting day
 
-Let's extract or get the day of the week from a time object.
+Let's get the day of the week from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getDay()) // 6, because the day is Saturday which is the 7th day
+console.log(now.getDay()) // 6, because the day is Saturday (which corresponds to index 6, as Sunday is 0).
 // Sunday is 0, Monday is 1 and Saturday is 6
 // Getting the weekday as a number (0-6)
 ```
 
 ### Getting hours
 
-Let's extract or get the hours from a time object.
+Let's get the hours from a time object.
 
 ```js
 const now = new Date()
@@ -470,7 +469,7 @@ console.log(now.getHours()) // 0, because the time is 00:56:41
 
 ### Getting minutes
 
-Let's extract or get the minutes from a time object.
+Let's get the minutes from a time object.
 
 ```js
 const now = new Date()
@@ -479,7 +478,7 @@ console.log(now.getMinutes()) // 56, because the time is 00:56:41
 
 ### Getting seconds
 
-Let's extract or get the seconds from a time object.
+Let's get the seconds from a time object.
 
 ```js
 const now = new Date()
@@ -564,7 +563,7 @@ Now do some exercises for your brain and muscles.
    8. !(4 > 3 && 10 < 12)
    9. !(4 > 3 && 10 > 12)
    10. !(4 === '4')
-   11. There is no 'on' in both 'dragon' and 'python'
+   11. Check if there is 'on' in both 'dragon' and 'python'.
 
 7. Use the Date object to do the following activities:
    1. What is the year today?
