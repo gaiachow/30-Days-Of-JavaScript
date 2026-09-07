@@ -1,4 +1,4 @@
-// concat(): Takes one or more substrings and returns a concatenated string.
+// concat(): Takes one or more strings and returns a concatenated string.
 
 /*
   Syntax:
