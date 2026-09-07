@@ -159,7 +159,7 @@ Ctrl+Shift+I
 
 To write our first JavaScript code, we use the built-in function **console.log()**.
 We pass an argument as input, and the function displays the output.
-We pass `'Hello, World!'` as an argument in the console.log() function.
+We pass `'Hello, World!'` as an argument to the console.log() function.
 
 ```js
 console.log('Hello, World!')
@@ -186,7 +186,7 @@ You wrote your first JavaScript code using _`console.log()`_.
 ##### Comments
 
 We can add comments to our code.
-Comments are very important for making code more readable and for adding remarks in our code.
+Comments are very important for making code more readable and for leaving explanations in our code.
 JavaScript does not execute the comment part of our code.
 In JavaScript, any text line starting with `//` is a comment, and anything between `/*` and `*/` is a multi-line comment.
 
@@ -248,7 +248,7 @@ console.log(`Hello, World!`)
 
 #### Arithmetic
 
-Now, let us practice writing more JavaScript code using _`console.log()`_ on the Google Chrome console for numbers.
+Now, let us practice writing more JavaScript code for numbers using _`console.log()`_ on the Google Chrome console.
 In addition to printing text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without using the **_`console.log()`_** function.
@@ -275,7 +275,7 @@ In this 30-day JavaScript challenge, we will be using Visual Studio Code.
 #### Installing Visual Studio Code
 
 Visual Studio Code is a very popular open-source text editor.
-I would recommend [downloading Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to use what you have.
+I would recommend [downloading Visual Studio Code](https://code.visualstudio.com/), but if you prefer other editors, feel free to use what you have.
 
 ![Vscode](../images/vscode.png)
 
@@ -284,7 +284,7 @@ If you have installed Visual Studio Code, let us start using it.
 #### How to Use Visual Studio Code
 
 Open Visual Studio Code by double-clicking its icon.
-When you open it, you will get this kind of interface.
+When you open it, you will see an interface like this.
 Try to interact with the labeled icons.
 
 ![Vscode ui](../images/vscode_ui.png)
@@ -328,7 +328,7 @@ Then paste the following code and open it in a browser, for example [Chrome](htt
 </html>
 ```
 
-Now, you have just written your first inline script.
+You have just written your first inline script.
 We can create a pop-up alert message using the _`alert()`_ built-in function.
 
 ### Internal Script
@@ -374,7 +374,7 @@ Open the browser console to see the output from the `console.log()`.
 
 ### External Script
 
-Similar to the internal script, the external script link can be in the header or body, but it is preferred to be placed in the body.
+Similar to the internal script, the external script link can be in the head or body, but it is preferable to place it in the body.
 First, we should create an external JavaScript file with a .js extension.
 All files ending with the .js extension are JavaScript files.
 Create a file named introduction.js inside your project directory.
@@ -492,7 +492,7 @@ false // if the light is off, the value is false
 ### Undefined
 
 In JavaScript, if we don't assign a value to a variable, the value is undefined.
-In addition to that, if a function does not return anything, it returns undefined.
+Additionally, if a function does not return anything, it returns undefined.
 
 ```js
 let firstName
@@ -595,7 +595,7 @@ year2020
 year_2020
 ```
 
-The first and second variables in the list follow the lower camelCase convention in JavaScript.
+The variables named with camelCase (e.g., firstName, lastName) follow the lower camelCase convention in JavaScript.
 Throughout this course, we will use camelCase (camelWithOneHump) for variables.
 We use UpperCamelCase (CamelWithTwoHumps) for class names; we'll cover classes and objects in a later section.
 
