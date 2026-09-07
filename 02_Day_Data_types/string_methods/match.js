@@ -3,7 +3,7 @@
 // Let us see what a regular expression pattern looks like.
 // It starts and ends with a slash (/).
 let string = 'love'
-let patternOne = /love/   // without any flag
+let patternOne = /love/   // without any flags
 let patternTwo = /love/gi // g means "search the whole text", and i makes it case-insensitive.
 
 /*
