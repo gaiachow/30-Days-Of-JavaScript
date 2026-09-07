@@ -1,4 +1,4 @@
-// substring(): Takes two arguments, the starting index and the stopping index, and does not include the stopping index.
+// substring(): Takes a start index and a stop index, and returns the substring from the start up to but not including the stop index.
 
 let string = 'JavaScript'
 console.log(string.substring(0, 4))  // Java
